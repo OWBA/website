@@ -1,0 +1,9 @@
+_model: generate-rss-feed
+---
+_template: generate-rss-feed.xml
+---
+_discoverable: no
+---
+title: Offene Werkstatt Bamberg – News
+---
+description: Neuigkeiten aus der Offenen Werkstatt

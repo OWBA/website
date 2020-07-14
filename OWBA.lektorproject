@@ -1,0 +1,10 @@
+[project]
+name = Offene Werkstatt Bamberg
+url = https://owba.de/
+locale = de_DE
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = path:///srv/http/de-owba

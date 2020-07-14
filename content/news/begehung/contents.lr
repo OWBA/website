@@ -1,0 +1,35 @@
+title: Begehung am 16.7.
+---
+pub_date: 2020-07-10
+---
+body:
+
+#### block-text ####
+align: default
+----
+content:
+
+Du warst beim ersten Treffen nicht dabei? Das macht nichts.  
+Dafür hast du jetzt die Gelegenheit dir die Räume direkt anzuschauen.
+
+Treffpunkt ist __Donnerstag, der 16. Juli__ um __18.45 Uhr__ an der __Lagarde Kaserne, Tor 1__.  
+Karte: [Google Maps][1], [OpenStreetMap][2]
+
+[1]: /redirect.php?to=gmaps-lagarde
+[2]: /redirect.php?to=osm-lagarde
+#### block-image ####
+image: grundriss.jpg
+----
+width: 0
+----
+height: 0
+----
+contents:
+
+Grundriss der Werkstatt. 
+Links (<span style="color:magenta">magenta</span>) unsere Werkstatt.
+Rechts (<span style="color:royalblue">blau</span>) noch unklar.
+#### block-text ####
+align: default
+----
+content: Bis dahin :)

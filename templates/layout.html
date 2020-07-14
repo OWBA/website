@@ -1,0 +1,42 @@
+{%- set rss = site.get('/feed.xml') -%}
+{%- set head = site.get('/layout-header') -%}
+{%- set foot = site.get('/layout-footer') -%}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <title>{% if this._path != '/' %}{% block title %}Willkommen{% endblock %} — {% endif %}{{ head.headtitle }}</title>
+  <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ rss.title }}" href="{{ rss|url }}"/>
+  {%- if head.meta %}
+  {{ head.meta }}
+  {%- endif %}
+</head>
+<body>
+  <header>
+    <a href="{{'/'|url}}"><h1>{{ head.pagetitle }}</h1></a>
+    <nav>
+      <ul>
+      {%- if '/' in head.nav_items %}
+        <li{% if this._path == '/' %} class="active"{% endif %}><a href="{{ '/'|url }}">{{ site.get('/').title }}</a></li>
+      {%- endif %}
+      {%- for x in site.get('/').children -%}
+        {%- if x.path in head.nav_items %}
+        <li{% if this.is_child_of(x) %} class="active"{% endif %}><a href="{{ x|url }}">{{ x.title or x.record_label }}</a></li>
+        {%- endif %}
+      {%- endfor %}
+      {%- for x in head.nav_items_additional.blocks %}
+        <li><a href="{{ x.link }}">{{ x.title }}</a></li>
+      {%- endfor %}
+      </ul>
+    </nav>
+  </header>
+  <main{% block main_attr %}{% endblock %}>
+    {% block body -%}{%- endblock %}
+  </main>
+  <footer>
+    {{ foot.content }}
+  </footer>
+</body>
+</html>

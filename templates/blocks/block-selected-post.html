@@ -1,0 +1,5 @@
+{%- from "macros/blog-makro.html" import render_blog_post -%}
+<div class="latest-post">
+  {%- set x = site.get(this.post) if (this.post and this.post != '#') else site.get('/news').children.first() %}
+  {{ render_blog_post(x, make_link=not this.no_link) }}
+</div>

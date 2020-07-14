@@ -1,0 +1,14 @@
+{%- set image = record.attachments.get(this.image) -%}
+{%- set w = this.width if this.width > 0 else None -%}
+{%- set h = this.height if this.height > 0 else None -%}
+{%- set _mw = 950 - 2 * 40 -%}{#- body max-width minus figure margin -#}
+<figure>
+  {%- if not w and not h and image.width < _mw %}
+    <img src="{{ image|url }}">
+  {%- else %}
+  <a href="{{ image|url }}" target="_blank">
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h)|url }}">
+  </a>
+  {%- endif %}
+  <figcaption>{{ this.contents }}</figcaption>
+</figure> 

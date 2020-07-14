@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>{{ this.title }}</title><link>{{ site.root|url(external=True) }}</link><description>{{ this.description }}</description><language>de-de</language>
+{%- for post in site.get('news').children.limit(this.limit) -%}
+<item><title>{{ post.title }}</title><link>{{ post.path|url(external=True) }}</link><description><![CDATA[{{ post.body }}]]></description><guid>{{ post._slug }}</guid>{% if post.pub_date %}<pubDate>{{ post.pub_date.strftime('%a, %d %b %Y %H:%M:%S -0000') }}</pubDate>{% endif %}</item>
+{%- endfor -%}
+</channel></rss>

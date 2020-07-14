@@ -1,0 +1,31 @@
+_model: root
+---
+_template: page.html
+---
+title: Aktuelles
+---
+body:
+
+#### block-text ####
+align: default
+----
+content:
+
+Wir suchen Mitbegeisterte, 
+
+die ersten Arbeitskreise haben sich gebildet und suchen nach Zulauf.  
+Wenn dich ein Thema interessiert, [melde dich](/kontakt) doch einfach direkt bei uns :)
+
+- Social Media (bekannt machen; insbesondere aktuell um neue Mitwirkende zu finden aber auch für später generell)
+
+- Beschaffung von Geräten und Material (abklappern von Kleinanzeigen, Bekannten, und sonstigem woher man für günstig oder lau was her bekommt)
+
+- Vereinsgründung (Satzung, Entscheidungsform, etc.)
+
+- Technische Infrastruktur (aktuell hauptsächlich Web-Tools zum gemeinsamen Arbeiten)
+
+- Finanzierung (Anschreiben von Firmen zwecks Geräte oder Material spenden, Förderanträge, etc. Hängt von Vereinsgründung ab, kann aber schon angegangen werden)
+#### block-selected-post ####
+post: 
+----
+no_link: 

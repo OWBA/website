@@ -1,0 +1,40 @@
+_model: generate-php-redirect
+---
+_template: generate-redirect.php
+---
+_discoverable: no
+---
+redirects:
+
+#### url-redirect ####
+slug: mailing-liste
+----
+redirect: https://lists.as42.net/postorius/lists/lagarde-werkstatt.lists.as42.net/
+#### url-redirect ####
+slug: mailing-liste-subscribe
+----
+redirect: mailto:lagarde-werkstatt-join@lists.as42.net?subject=subscribe
+#### url-redirect ####
+slug: tg-channel
+----
+redirect: https://t.me/joinchat/AAAAAEwVl81X6PLYqrCV8Q
+#### url-redirect ####
+slug: poll-name
+----
+redirect: https://www.systemli.org/poll/#/poll/4NLwOAtDAl/participation?encryptionKey=yHS9ynRfbhUM50756AXMmucpOqWvMWJE2UPHTcw7
+#### url-redirect ####
+slug: gmaps-garten
+----
+redirect: https://www.google.com/maps/place/49°53'45.0"N+10°53'55.6"E
+#### url-redirect ####
+slug: gmaps-lagarde
+----
+redirect: https://www.google.com/maps/place/49°54'14.4N+10°54'46.7E
+#### url-redirect ####
+slug: osm-garten
+----
+redirect: https://www.openstreetmap.org/#map=19/49.89587/10.89868
+#### url-redirect ####
+slug: osm-lagarde
+----
+redirect: https://www.openstreetmap.org/#map=19/49.904/10.912425
