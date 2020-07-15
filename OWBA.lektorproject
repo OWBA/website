@@ -3,13 +3,15 @@ name = Offene Werkstatt Bamberg
 url = https://owba.de/
 locale = de_DE
 
-[servers.production]
-name = Production
-enabled = yes
-default = yes
-target = path:///srv/http/de-owba
-
 [servers.git-commit]
 name = Git Commit
-enabled = yes
 target = cmd://git/add * && git commit -m 'Automerge changes' && git push
+
+[servers.git-pull]
+name = Git Pull
+target = cmd://git/pull
+
+[servers.production]
+name = Production
+default = yes
+target = path:///srv/http/de-owba
