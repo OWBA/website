@@ -3,15 +3,19 @@ name = Offene Werkstatt Bamberg
 url = https://owba.de/
 locale = de_DE
 
+[servers.publish-production]
+name = Publish: Production
+default = yes
+target = path:///srv/http/de-owba
+
 [servers.git-commit]
-name = Git Commit
+name = Git: Commit
 target = cmd://git/add * && git commit -m 'Automerge changes' && git push
 
 [servers.git-pull]
-name = Git Pull
+name = Git: Pull
 target = cmd://git/pull
 
-[servers.production]
-name = Production
-default = yes
-target = path:///srv/http/de-owba
+[servers.lektor-rebuild-plugins]
+name = Lektor: Rebuild Plugins
+target = cmd://lektor/plugins flush-cache && lektor plugins list && echo done.
