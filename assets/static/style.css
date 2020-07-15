@@ -4,7 +4,7 @@ body {
 	margin: 0 auto;
 	padding: 1em 2em;
 	background: #FFF; color: #222;
-	line-height: 1.4em;
+	line-height: 1.4;
 }
 @media (prefers-color-scheme: dark) {
 	body { background: #222; color: #FFF }
