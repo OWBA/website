@@ -8,3 +8,8 @@ name = Production
 enabled = yes
 default = yes
 target = path:///srv/http/de-owba
+
+[servers.git-commit]
+name = Git Commit
+enabled = yes
+target = cmd://git/add * && git commit -m 'Automerge changes' && git push
