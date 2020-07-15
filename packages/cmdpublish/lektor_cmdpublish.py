@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from lektor.pluginsystem import Plugin
 from lektor.publisher import Publisher
-import subprocess
+import subprocess as proc
 
 
 class SysCmdPublisher(Publisher):
     def publish(self, target_url, credentials=None, **extra):
         cmd = "{} {}".format(target_url.host, target_url.path[1:])
-        with subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE) as proc:
-            for line in proc.stdout:
+        with proc.Popen(cmd, shell=True, stdout=proc.PIPE, stderr=proc.STDOUT) as pipe:
+            for line in pipe.stdout:
                 yield line[:-1].decode("utf-8")
 
 
