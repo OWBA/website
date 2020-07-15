@@ -7,9 +7,9 @@ import subprocess
 class SysCmdPublisher(Publisher):
     def publish(self, target_url, credentials=None, **extra):
         cmd = "{} {}".format(target_url.host, target_url.path[1:])
-        pipe = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
-        for line in pipe.stdout:
-            yield line[:-1].decode("utf-8")
+        with subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE) as proc:
+            for line in proc.stdout:
+                yield line[:-1].decode("utf-8")
 
 
 class CmdPublishPlugin(Plugin):
