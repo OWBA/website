@@ -1,7 +1,0 @@
-_model: generate-php-redirect
----
-_template: generate-redirect.php
----
-_discoverable: no
----
-redirects: 
