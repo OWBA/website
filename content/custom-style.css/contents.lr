@@ -1,3 +1,5 @@
 _model: generate-file
 ---
 _discoverable: no
+---
+content: footer { max-width: 500px; margin: 0 auto; }
