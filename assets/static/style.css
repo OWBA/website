@@ -23,7 +23,7 @@ header nav ul li {
 }
 footer {
 	font-size: 0.8em;
-	margin: 3em 0;
+	margin: 3em auto 0;
 }
 
 main ul { list-style: '❂ '; padding: 0 2em; }

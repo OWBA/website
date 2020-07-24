@@ -16,6 +16,10 @@ target = cmd://git/add * && git commit -m 'Automerge changes' && git push
 name = Git: Pull
 target = cmd://git/pull
 
+[servers.git-status]
+name = Git: Status
+target = cmd://git/status
+
 [servers.lektor-rebuild-plugins]
 name = Lektor: Rebuild Plugins
 target = cmd://lektor/plugins flush-cache && lektor plugins list && echo done.
