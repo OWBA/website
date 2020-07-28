@@ -20,6 +20,10 @@ target = cmd://git/pull
 name = Git: Status
 target = cmd://git/status
 
+[servers.git-diff]
+name = Git: Diff
+target = cmd://git/diff
+
 [servers.lektor-rebuild-plugins]
 name = Lektor: Rebuild Plugins
 target = cmd://lektor/plugins flush-cache && lektor plugins list && echo done.
