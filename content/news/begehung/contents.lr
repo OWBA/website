@@ -5,15 +5,13 @@ pub_date: 2020-07-10
 body:
 
 #### block-text ####
-align: default
-----
 content:
 
 Du warst beim ersten Treffen nicht dabei? Das macht nichts.  
 Dafür hast du jetzt die Gelegenheit dir die Räume direkt anzuschauen.
 
 Treffpunkt ist __Donnerstag, der 16. Juli__ um __18.45 Uhr__ an der __Lagarde Kaserne, Tor 1__.  
-Karte: [Google Maps][1], [OpenStreetMap][2]
+Karte: [Google Maps][1], [OpenStreetMap][2]
 
 [1]: https://www.google.com/maps/place/49°54'14.4"N+10°54'46.7"E
 [2]: https://www.openstreetmap.org/#map=19/49.904/10.912425
@@ -26,6 +24,4 @@ height: 0
 ----
 contents: Grundriss der Werkstatt. Maße nicht genau.
 #### block-text ####
-align: default
-----
 content: Bis dahin :)

@@ -7,8 +7,6 @@ title: Aktuelles
 body:
 
 #### block-text ####
-align: default
-----
 content:
 
 Wir suchen Mitbegeisterte, 
@@ -19,5 +17,3 @@ Wenn dich ein Thema interessiert, [melde dich](/kontakt) doch einfach direkt bei
 Aktuell beschäftigt uns: Vereinsgründung (finale Phase!), Finanzierung, Social Media, Beschaffung von Geräten und Materialien.
 #### block-selected-post ####
 post: #
-----
-no_link: 
