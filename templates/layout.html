@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-  <title>{% if this._path != '/' %}{% block title %}Willkommen{% endblock %} — {% endif %}{{ head.headtitle }}</title>
+  <title>{% if this._path != '/' %}{% block title %}Willkommen{% endblock %} – {% endif %}{{ head.headtitle }}</title>
   <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ rss.title }}" href="{{ rss|url }}"/>
   {%- if head.meta %}
