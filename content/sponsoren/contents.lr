@@ -11,3 +11,22 @@ content:
 
 Sieht hier noch ganz schön leer aus.  
 Unterstütze uns doch ein wenig :)
+#### block-img-grid ####
+grid:
+
+##### nav-img-grid #####
+title: Backspace Bamberg
+-----
+image: logo-backspace.png
+-----
+link: https://www.hackerspace-bamberg.de/
+-----
+description: 
+##### nav-img-grid #####
+title: AStA Bamberg e. V.
+-----
+image: logo-asta.svg
+-----
+link: https://asta-bamberg.de/
+-----
+description: 

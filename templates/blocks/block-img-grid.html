@@ -1,0 +1,7 @@
+<div class="img-grid-block">
+  {% for tile in this.grid.blocks -%}
+  <a href="{{ tile.link }}" title="{{ tile.title }}" target="_blank"><div>
+    <img src="{{ tile.image|url }}" alt="{{ tile.title }}">
+  </div></a>
+  {%- endfor %}
+</div>

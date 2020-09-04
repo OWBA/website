@@ -49,3 +49,22 @@ figcaption { font-style: italic; }
 figure img { max-width: 100%; }
 
 svg { fill: #f39; width: 1em; height: 1em; }
+
+.img-grid-block div {
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	background: #EEE;
+	vertical-align: top;
+	padding: 10px;
+	margin: 8px;
+	border-radius: 5px;
+}
+.img-grid-block img {
+	object-fit: scale-down;
+	width: 100%;
+	height: 100%;
+}
+.img-grid-block div:hover {
+	scale: 1.1;
+}
