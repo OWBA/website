@@ -1,0 +1,22 @@
+_model: page
+---
+title: Impressum
+---
+index: 99
+---
+body:
+
+#### block-text ####
+content:
+
+### Hausanschrift:
+
+Offene Werkstatt Bamberg  
+Warner-Barracks 7107  
+96052 Bamberg
+
+(momentan kein Briefkasten vorhanden)
+
+### Vereinsanschrift:
+
+_folgt nach der Eintragung ins Vereinsregister_
