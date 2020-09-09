@@ -2,4 +2,9 @@ _model: generate-file
 ---
 _discoverable: no
 ---
-content: footer { max-width: 500px; }
+content:
+
+footer { max-width: 500px; }
+@media (min-width: 600px) {
+  .fr-600 { float: right; }
+}

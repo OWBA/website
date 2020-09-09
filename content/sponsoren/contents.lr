@@ -1,16 +1,13 @@
 _model: page
 ---
-title: Sponsoren
+title: Wir danken
 ---
 index: 20
 ---
 body:
 
 #### block-text ####
-content:
-
-Sieht hier noch ganz schön leer aus.  
-Unterstütze uns doch ein wenig :)
+content: ## für fruchtbare Kooperation
 #### block-img-grid ####
 grid:
 
@@ -30,3 +27,15 @@ image: logo-asta.svg
 link: https://asta-bamberg.de/
 -----
 description: 
+##### nav-img-grid #####
+title: kontakt – Das Kulturprojekt
+-----
+image: kontakt.svg
+-----
+link: https://kontakt-bamberg.de/
+-----
+description: 
+#### block-text ####
+content: ## für Sponsoring und Unterstützung
+#### block-text ####
+content: ## für Förderung
