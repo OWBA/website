@@ -12,14 +12,6 @@ content: ## für fruchtbare Kooperation
 grid:
 
 ##### nav-img-grid #####
-title: Backspace Bamberg
------
-image: logo-backspace.png
------
-link: https://www.hackerspace-bamberg.de/
------
-description: 
-##### nav-img-grid #####
 title: AStA Bamberg e. V.
 -----
 image: logo-asta.svg
@@ -30,12 +22,33 @@ description:
 ##### nav-img-grid #####
 title: kontakt – Das Kulturprojekt
 -----
-image: kontakt.svg
+image: logo-kontakt.svg
 -----
 link: https://kontakt-bamberg.de/
+-----
+description: 
+##### nav-img-grid #####
+title: Backspace Bamberg
+-----
+image: logo-backspace.svg
+-----
+link: https://www.hackerspace-bamberg.de/
 -----
 description: 
 #### block-text ####
 content: ## für Sponsoring und Unterstützung
 #### block-text ####
 content: ## für Förderung
+#### block-img-grid ####
+grid:
+
+##### nav-img-grid #####
+title: Klima- und Umweltamt der Stadt Bamberg
+-----
+image: logo-umweltamt.svg
+-----
+link: http://www.umwelt.bamberg.de/
+-----
+description: 
+---
+_slug: 
