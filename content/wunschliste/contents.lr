@@ -5,9 +5,11 @@ title: Wunschliste
 body:
 
 #### block-text ####
+content: ##Wunschliste
+#### block-text ####
 content:
 
-### Unsere Werkstatt ist schön. Noch schöner wird sie, wenn noch mehr Werkzeug, Maschinen und Material zur Verfügung steht.
+#### Unsere Werkstatt ist so schön. Noch schöner wird sie, wenn noch mehr Werkzeug, Maschinen und Material zur Verfügung steht.
 Hier eine Liste mit Dingen, die wir brauchen.
 Mehr geht immer :)
 #### block-text ####
@@ -15,6 +17,7 @@ content:
 
 - Schwerlastregale (ideal: mind. 50 cm tief)
 - Wandregale
+- Leiter
 - Computer
 - Zwingen
 - Hobelbank
@@ -34,11 +37,11 @@ content:
 - Bandschleifer
 - Winkelschleifer
 - Gabelschlüssel
+- Japansägen
 #### block-text ####
 content:
 
 Schreibt uns auf info@owba.de wenn ihr gern etwas abgeben möchtet.
-
 ##Danke!
 ---
 index: 25

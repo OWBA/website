@@ -50,5 +50,21 @@ image: logo-umweltamt.svg
 link: http://www.umwelt.bamberg.de/
 -----
 description: 
+##### nav-img-grid #####
+title: Adalbert-Raps-Stiftung
+-----
+image: logo-adalbert-raps.svg
+-----
+link: https://www.raps-stiftung.de/
+-----
+description: 
+##### nav-img-grid #####
+title: Demokratie leben Stiftung
+-----
+image: logo-demokratie-leben-bund.jpg
+-----
+link: https://www.demokratie-leben-bamberg.de/
+-----
+description: 
 ---
 _slug: 
