@@ -1,0 +1,29 @@
+title: Arbeitskreis Fahrrad
+---
+body:
+
+#### block-text ####
+content:
+
+Wir starten in den Dezember mit einer erfreulichen Nachricht für alle Fahrrad-Begeisterten. Der AK Fahrrad hat sich gegründet und geht direkt das kleine Fahrradleichen-Problem der Studentenwohnheime an! 
+Diese, leicht reparaturbedürftigen, Räder konnten wir vor dem Verschrotten retten. Davon geht nun ein Teil zum Reparieren in unsere Werkstatt und der andere Teil kommt [Freund statt fremd](https://freundstattfremd.de/) zugute.
+
+Im neuen Jahr wartet dann ein spannender (und lehrreicher!) Workshop auf dich.
+#### block-image ####
+image: rad1.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: 
+#### block-image ####
+image: rad2.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: 
+---
+pub_date: 2020-12-01
