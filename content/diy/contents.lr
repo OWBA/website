@@ -1,0 +1,29 @@
+_model: page
+---
+title: DIY
+---
+body:
+
+#### block-text ####
+content:
+
+Hallo und Herzlich Willkommen zu den ersten **Workshops der Offenen Werkstatt Bamberg**!
+
+Es ist kalt und dunkel und wir sind und bleiben in unseren Freizeitaktivitäten eingeschränkt. Deshalb werden wir dir die nächste Zeit mit verschiedenen **Basteltüten** versüßen. Wo und wann du  diese jeweils (kostenlos) abholen kannst, erfährst du hier auf der Website, auf Insta oder facebook. 
+Auch findest du hier die jeweiligen Anleitungen, wie du mit deinem Material zu einem erfreulichen Ergebnis kommst.
+
+Vielleicht hälst du bereits die erste OWBA-Basteltüte in Händen. Vielleicht besorgst du dir selbst das nötige Material oder ergänzt und erweiterst es. Vielleicht nutzt du altes Zeitungspapier, alte Landkarten, alte Notenblätter oder Buchseiten... Probier dich aus!
+
+Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #AdventsWerkstatt
+
+In diesem Sinne: Frohes Schaffen!
+#### block-image ####
+image: prepare.jpg
+----
+width: 0
+----
+height: 600
+----
+contents: 
+---
+index: 18

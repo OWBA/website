@@ -19,7 +19,7 @@ meta:
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/custom-style.css">
 ---
-nav_items: /kontakt, /news, /info, /sponsoren, /danke, /wunschliste
+nav_items: /kontakt, /news, /info, /sponsoren, /danke, /wunschliste, /diy
 ---
 nav_items_additional:
 
