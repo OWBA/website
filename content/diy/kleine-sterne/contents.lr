@@ -17,7 +17,7 @@ contents:
 #### block-text ####
 content:
 
-Für die **kleinen Sterne** brauchst du:
+Für den **kleinen Stern** brauchst du:
 - 1 Papierstreifen
 - 1 Faden
 - Schere
@@ -25,17 +25,17 @@ Für die **kleinen Sterne** brauchst du:
 
 Und so geht´s:
 
-1. In der Tüte findet ihr zwei lange Papierbänder.  
-    Ihr nehmt euch eines, und macht eine Schlaufe rein (Bild 2)
-2. Diese drückt ihr fest und schneidet den Überstand weg.
-3. Anschließend wird das Band rundherum gelegt (Bilder 5–7)
-4. Das letzte Stück wird unter das Band geschoben, und der Überstand abgeschnitten.
-5. Zum Schluss - this is where the magic happens - drückt ihr vorsichtig in die Seiten und „poppt“ den Stern dadurch auf.
-6. Tada! 🎉 Fertig euer Weihnachtssternchen! Mit einer Nadel und Faden könnt ihr noch eine Aufhängung hinzufügen.
+1. In der Tüte findest du zwei lange Papierbänder.  
+    Nehme eines davon und mach eine Schlaufe rein. (Bild 2)
+2. Drücke es fest und schneide den Überstand weg.
+3. Anschließend legst du das Band rundherum (Bilder 5–7)
+4. Das letzte Stück schiebst du unter das Band und schneidest den Überstand ab.
+5. Zum Schluss - this is where the magic happens - drückst du vorsichtig in die Seiten und „ploppst“ den Stern dadurch auf.
+6. Tada! 🎉 Fertig ist dein Weihnachtssternchen! Mit einer Nadel und Faden kannst du noch eine Aufhängung hinzufügen.
 
-Abzuholen sind die kostenlose Basteltüten Samstag beim Unverpacktladen und Odeon Kinokiosk, sowie Sonntag von 14–15 Uhr an der Offenen Werkstatt (Weißenburgstr 10).
+Eine kostenlose Basteltüte kannst du Samstag beim Unverpacktladen und Odeon Kinokiosk, sowie Sonntag von 14–15 Uhr an der Offenen Werkstatt (Weißenburgstr 10) abholen.
 
-Verlinkt uns gern eure Ergebnisse auf [Instagram][1]! #offenewerkstattbamberg #adventswerkstatt
+Verlinke uns gern dein Ergebniss auf [Instagram][1]! #offenewerkstattbamberg #adventswerkstatt
 
 [1]: https://www.instagram.com/OffeneWerkstattBamberg/
 #### block-image ####
@@ -45,7 +45,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Bilde an einem Ende des Papierstreifens eine Schlaufe bzw. einen Knoten.
 #### block-image ####
 image: 2.jpg
 ----
@@ -53,7 +53,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Drücke die Schlaufe fest. Es entsteht ein Fünfeck.
 #### block-image ####
 image: 3.jpg
 ----
@@ -61,7 +61,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Schneide das überstehende Papier direkt an der Kante ab.
 #### block-image ####
 image: 4.jpg
 ----
@@ -69,7 +69,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Wickel den langen Papierstreifen um das Fünfeck.
 #### block-image ####
 image: 5.jpg
 ----
@@ -93,7 +93,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Schiebe das letzte Stück des Papierstreifens durch das gewickelte Band.
 #### block-image ####
 image: 8.jpg
 ----
@@ -101,7 +101,7 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Schneide das überstehende Papier direkt an der Kante ab.
 #### block-image ####
 image: 9.jpg
 ----
@@ -109,4 +109,4 @@ width: 0
 ----
 height: 0
 ----
-contents: 
+contents: Drücke die Kanten vorsichtig mit dem Finger ein.
