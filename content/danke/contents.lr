@@ -20,6 +20,14 @@ link: https://asta-bamberg.de/
 -----
 description: 
 ##### nav-img-grid #####
+title: Backspace Bamberg
+-----
+image: logo-backspace.svg
+-----
+link: https://www.hackerspace-bamberg.de/
+-----
+description: 
+##### nav-img-grid #####
 title: kontakt – Das Kulturprojekt
 -----
 image: logo-kontakt.svg
@@ -28,11 +36,11 @@ link: https://kontakt-bamberg.de/
 -----
 description: 
 ##### nav-img-grid #####
-title: Backspace Bamberg
+title: machbar bamberg e.V.
 -----
-image: logo-backspace.svg
+image: logo-machbar.svg
 -----
-link: https://www.hackerspace-bamberg.de/
+link: http://machbar-bamberg.de
 -----
 description: 
 #### block-text ####
