@@ -1,0 +1,11 @@
+{%- set _id = this.vid.strip() -%}
+<figure>
+  <a href="https://www.youtube.com/watch?v={{ _id }}" target="_blank">
+  	<div class="yt-vid">
+      <div class="btn-play"><svg viewBox="0 0 136 96"><path d="M133,15c-1-6-5-11-11-12C111,0,68,0,68,0S24,0,14,3 C8,5,4,10,3,15C0,26,0,48,0,48s0,4,3,32c1,6,5,11,11,12 C24,96,68,96,68,96s43-0,54-3c6-1,9-6,11-12C136,70,136,48,136,48S136,26,133,15z"></path><path d="M90,48 54,28 54,68" fill="#fff"></path></svg></div>
+      <span>© youtu.be/{{ _id }}</span>
+      <img src="{{ yt_cover(_id, this.record.path) | url }}" alt="YouTube Video {{ _id }}">
+    </div>
+  </a>
+  <figcaption>{{ this.contents }}</figcaption>
+</figure> 
