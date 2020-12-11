@@ -1,4 +1,5 @@
 {%- set image = record.attachments.get(this.image) -%}
+{%- if image._attachment_type == 'image' -%}
 {%- set w = this.width if this.width > 0 else None -%}
 {%- set h = this.height if this.height > 0 else None -%}
 {%- set _mw = 950 - 2 * 40 -%}{#- body max-width minus figure margin -#}
@@ -11,4 +12,5 @@
   </a>
   {%- endif %}
   <figcaption>{{ this.contents }}</figcaption>
-</figure> 
+</figure>
+{%- endif -%}
