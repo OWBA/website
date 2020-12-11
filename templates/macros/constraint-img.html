@@ -6,7 +6,11 @@
   {%- if clickable %}
   <a href="{{ image|url }}">
   {%- endif %}
-    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, mode=mode)|url }}" alt="{{ alt }}">
+  {%- if mode == 'crop' %}
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, crop=True)|url }}" alt="{{ alt }}">
+  {%- else %}
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None)|url }}" alt="{{ alt }}">
+  {%- endif %}
   {%- if clickable %}
   </a>
   {%- endif -%}
