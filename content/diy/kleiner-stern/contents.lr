@@ -1,23 +1,13 @@
-_model: page
+title: Weihnachtsstern ⭐️
 ---
-title: Kleine Sterne
+cover: 0.jpg
 ---
 body:
 
 #### block-text ####
-content: ## Weihnachtsstern ⭐️
-#### block-image ####
-image: 0.jpg
-----
-width: 0
-----
-height: 0
-----
-contents: 
-#### block-text ####
 content:
 
-Für den **kleinen Stern** brauchst du:
+Für den **Weihnachtsstern** brauchst du:
 - 1 Papierstreifen
 - 1 Faden
 - Schere

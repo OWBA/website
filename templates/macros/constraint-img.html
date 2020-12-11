@@ -1,0 +1,14 @@
+{%- macro constrain_img(image, w=0, h=0, alt='Bild', clickable=True, mode=None) -%}
+  {%- set _mw = 950 - 2 * 40 -%}{#- body max-width minus figure margin -#}
+  {%- if not w and not h and image.width < _mw %}
+  <img src="{{ image|url }}" alt="{{ alt }}">
+  {%- else -%}
+  {%- if clickable %}
+  <a href="{{ image|url }}">
+  {%- endif %}
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, mode=mode)|url }}" alt="{{ alt }}">
+  {%- if clickable %}
+  </a>
+  {%- endif -%}
+  {%- endif %}
+{%- endmacro -%}

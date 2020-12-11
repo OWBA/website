@@ -1,0 +1,10 @@
+{%- from "macros/constraint-img.html" import constrain_img -%}
+<div class="diy-grid">
+  {%- for x in site.get('/diy').children %}
+  {%- set image = x.attachments.get(x.cover) -%}
+  <a href="{{ x|url }}" title="{{ x.title }}"><div>
+  	{{ constrain_img(image, w=180, h=120, mode='crop', clickable=False, alt=x.title) }}
+    <p>{{ x.title }}</p>	
+  </div></a>
+  {%- endfor %}
+</div>

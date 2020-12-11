@@ -74,3 +74,9 @@ li svg { width: 1em; height: 1em; }
 .img-grid-block div:hover {
 	scale: 1.1;
 }
+
+/* DIY image grid */
+.diy-grid a { vertical-align: top; }
+.diy-grid div { display: inline-block; width: 180px; height: 120px; margin: 8px; }
+.diy-grid img { border-radius: 5px; }
+.diy-grid p { margin: 0 8px; font-size: 0.85em; hyphens: auto; }

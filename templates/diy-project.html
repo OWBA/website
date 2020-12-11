@@ -1,0 +1,12 @@
+{%- from "macros/constraint-img.html" import constrain_img -%}
+{%- set image = this.record.attachments.get(this.cover) -%}
+{%- extends "base-page.html" -%}
+{%- block body -%}
+<h2 class="center">{{ this.title }}</h2>
+{%- if image._attachment_type == 'image' %}
+<figure>
+  {{ constrain_img(image, h=800, alt='Titelcover', clickable=False) }}
+</figure>
+{%- endif %}
+{{ this.body }}
+{%- endblock -%}

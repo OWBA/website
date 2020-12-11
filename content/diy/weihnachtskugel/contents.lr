@@ -1,19 +1,9 @@
-_model: page
+title: Papeterie-Christbaumkugel 🎄
 ---
-title: Weihnachtskugeln
+cover: 0.jpg
 ---
 body:
 
-#### block-text ####
-content: ## Papeterie-Christbaumkugel 🎄
-#### block-image ####
-image: 0.jpg
-----
-width: 0
-----
-height: 0
-----
-contents: 
 #### block-text ####
 content:
 

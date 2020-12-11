@@ -1,4 +1,6 @@
-_model: page
+_model: diy-overview
+---
+_template: page.html
 ---
 title: DIY
 ---
@@ -16,11 +18,11 @@ Auch findest du hier die jeweiligen Anleitungen, wie du mit deinem Material zu e
 
 Vielleicht hälst du bereits die erste OWBA-Basteltüte in Händen. Vielleicht besorgst du dir selbst das nötige Material oder ergänzt und erweiterst es. Vielleicht nutzt du altes Zeitungspapier, alte Landkarten, alte Notenblätter oder Buchseiten... Probier dich aus!
 
-Und hier geht`s zur Anleitung:
-
- * [Kleiner Stern](kleine-sterne/)
-
- * [Weihnachtskugel](weihnachtskugeln/)
+Und hier geht’s zu den Anleitungen:
+#### block-diy-grid ####
+sort_by: by-name
+#### block-text ####
+content:
 
 Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #AdventsWerkstatt
 
