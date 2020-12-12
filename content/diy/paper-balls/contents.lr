@@ -83,7 +83,15 @@ width: 0
 ----
 height: 800
 ----
-contents: 
+contents: Achte bei allen folgenden Schritten immer darauf, dass sich die Falzungen an den Kanten treffen.
+#### block-image ####
+image: papierkugel_anleitung_28.jpg
+----
+width: 0
+----
+height: 800
+----
+contents: Falte die Falzungen nach innen. Mit dem Zeigefinger in der Schlaufe geht es recht einfach.
 #### block-image ####
 image: papierkugel_anleitung_30.jpg
 ----
@@ -91,17 +99,9 @@ width: 0
 ----
 height: 800
 ----
-contents: Falte die Stanzungen nach innen.
-#### block-image ####
-image: papierkugel_anleitung_42.jpg
-----
-width: 0
-----
-height: 800
-----
 contents: 
 #### block-image ####
-image: papierkugel_anleitung_44.jpg
+image: papierkugel_anleitung_42.jpg
 ----
 width: 0
 ----
