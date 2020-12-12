@@ -1,6 +1,16 @@
 {%- from "macros/makros.html" import constrain_img, dayfmt -%}
 <div class="diy-grid">
-  {% for x in site.get('/diy').children %}
+  {%- set all_diy = site.get('/diy').children -%}
+
+  {%- if this.sort_by == 'by-name' -%}
+    {%- set sorted_diy = all_diy.order_by('short_title') -%}
+  {%- elif this.sort_by == 'by-date-asc' -%}
+    {%- set sorted_diy = all_diy.order_by('pub_date', 'short_title') -%}
+  {%- elif this.sort_by == 'by-date-desc' -%}
+    {%- set sorted_diy = all_diy.order_by('-pub_date', 'short_title') -%}
+  {%- endif -%}
+
+  {%- for x in sorted_diy -%}
   {%- set image = x.attachments.get(x.cover) -%}
   <a href="{{ x|url }}"><div>
     {%- if x.pub_date %}
@@ -9,5 +19,5 @@
   	{{- constrain_img(image, w=180, h=120, mode='crop', clickable=False, alt='Anleitung') }}
     <p>{{ x.short_title or x.title }}</p>
   </div></a>
-  {%- endfor %}
+  {%- endfor -%}
 </div>
