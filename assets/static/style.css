@@ -78,6 +78,8 @@ li svg { width: 1em; height: 1em; }
 /* DIY image grid */
 .diy-grid { margin: 0 -9px 3em; }
 .diy-grid a { vertical-align: top; }
-.diy-grid div { display: inline-block; width: 180px; height: 120px; margin: 6px; }
-.diy-grid img { border-radius: 5px; }
+.diy-grid div { display: inline-block; width: 180px; margin: 6px; }
+.diy-grid time { display: none; }
+.diy-grid img { border-radius: 5px; height: 120px; width: 100%; background: #EEE; }
+.diy-grid a:hover img { mix-blend-mode: difference; }
 .diy-grid p { margin: 0 6px; font-size: 0.85em; hyphens: auto; }

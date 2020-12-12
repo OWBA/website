@@ -1,0 +1,57 @@
+{%- macro render_pagination(pagination) -%}
+  <div class="pagination">
+  {%- if pagination.has_prev %}
+    <a href="{{ pagination.prev|url }}">&laquo; Vorherige</a>
+  {%- else %}
+    <span class="disabled">&laquo; Vorherige</span>
+  {%- endif %} | {{ pagination.page }} | {% if pagination.has_next -%}
+    <a href="{{ pagination.next|url }}">Nächste &raquo;</a>
+  {%- else -%}
+    <span class="disabled">Nächste &raquo;</span>
+  {%- endif %}
+  </div>
+{%- endmacro -%}
+
+
+{%- macro dayfmt(the_date, fmt='full') -%}
+{%- if the_date -%}
+<time datetime="{{the_date}}">{{ the_date|dateformat(fmt) }}</time>
+{%- endif -%}
+{%- endmacro -%}
+
+
+{%- macro render_blog_post(post, make_link=false) -%}
+  <article>
+  {%- if make_link %}
+    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+  {%- else %}
+    <h2>{{ post.title }}</h2>
+  {%- endif -%}
+  {%- if post.pub_date %}
+    <p class="meta snd">{{ dayfmt(post.pub_date, fmt='full') }}</p>
+  {%- endif %}
+  {%- if post.body %}
+    {{ post.body }}
+  {%- endif %}
+  </article>
+{%- endmacro -%}
+
+
+{%- macro constrain_img(image, w=0, h=0, alt='Bild', clickable=True, mode=None) -%}
+  {%- set _mw = 950 - 2 * 40 -%}{#- body max-width minus figure margin -#}
+  {%- if not w and not h and image.width < _mw %}
+  <img src="{{ image|url }}" alt="{{ alt }}">
+  {%- else -%}
+  {%- if clickable %}
+  <a href="{{ image|url }}">
+  {%- endif %}
+  {%- if mode == 'crop' %}
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, crop=True)|url }}" alt="{{ alt }}">
+  {%- else %}
+    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None)|url }}" alt="{{ alt }}">
+  {%- endif %}
+  {%- if clickable %}
+  </a>
+  {%- endif -%}
+  {%- endif %}
+{%- endmacro -%}
