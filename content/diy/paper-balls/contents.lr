@@ -37,13 +37,21 @@ height: 800
 ----
 contents: Falze die Papierstreifen an den entsprechend vorgefalzten Stellen. Und glätte sie dann wieder.
 #### block-image ####
-image: papierkugel_anleitung_14.jpg
+image: papierkugel_anleitung_10.jpg
 ----
 width: 0
 ----
 height: 800
 ----
 contents: Forme 2 Streifen zu einem Kreis. Die Ringe müssen sich an den zwei kleinen Markierungen treffen.
+#### block-image ####
+image: papierkugel_anleitung_14.jpg
+----
+width: 0
+----
+height: 800
+----
+contents: 
 #### block-image ####
 image: papierkugel_anleitung_16.jpg
 ----
@@ -94,14 +102,6 @@ height: 800
 contents: Falte die Falzungen nach innen. Mit dem Zeigefinger in der Schlaufe geht es recht einfach.
 #### block-image ####
 image: papierkugel_anleitung_30.jpg
-----
-width: 0
-----
-height: 800
-----
-contents: 
-#### block-image ####
-image: papierkugel_anleitung_42.jpg
 ----
 width: 0
 ----
