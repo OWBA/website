@@ -2,9 +2,9 @@
 <div class="diy-grid">
   {%- for x in site.get('/diy').children %}
   {%- set image = x.attachments.get(x.cover) -%}
-  <a href="{{ x|url }}" title="{{ x.title }}"><div>
-  	{{ constrain_img(image, w=180, h=120, mode='crop', clickable=False, alt=x.title) }}
-    <p>{{ x.title }}</p>	
+  <a href="{{ x|url }}"><div>
+  	{{ constrain_img(image, w=180, h=120, mode='crop', clickable=False, alt='Anleitung') }}
+    <p>{{ x.short_title or x.title }}</p>	
   </div></a>
   {%- endfor %}
 </div>
