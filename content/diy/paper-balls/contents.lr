@@ -12,13 +12,13 @@ Für die **PaperBalls** brauchst du:
 * Nadel
 * Faden
 
-Und so geht´s mit der Schnellanleitung (Bilder sind weiter unter!):
+Und so geht´s mit der Schnellanleitung (Bilder sind weiter unten!):
 1. In der Tüte findest du mehrere Papierstreifen. Du brauchst 3 Streifen für einen PaperBall.
-2. Falze die Papierstreifen an den entsprechend vorgestanzten Stellen und glätte sie wieder.
-3. Forme 2 Streifen zu einem Kreis. Achte darauf, dass nur der Bereich unterhalb der zwei kleinen Markierungen überlappt. Befestige sie mit einem Klebestreifen.
-4. Lege die Kreise ineinander. Achte dabei darauf, dass die Stanzungen genau aneinander stoßen.
-5. Fädel den 3. Steifen durch und forme auch ihn zu einem Kreis.
-6. Richte die Streifen so aus, dass die Stanzungen genau aneinander stoßen.
+2. Falze die Papierstreifen an den entsprechend vorgefalzten Stellen und glätte sie wieder.
+3. Forme 2 Streifen zu einem Kreis. Achte darauf, dass sich nur der Bereich unterhalb der zwei kleinen Markierungen überlappt. Befestige sie mit einem Klebestreifen.
+4. Lege die Kreise ineinander. Achte darauf, dass bei einem Kreis der Klebestreifen oben ist und beim anderen nicht mehr zu sehen ist. Die Stanzungen sollen genau aneinander stoßen.
+5. Fädel den 3. Steifen durch und forme auch ihn zu einem Kreis. Drehe ihn soweit, dass der Klebestreifen nicht mehr zu sehen ist und die Falzungen genau aneinander stoßen.
+6. Richte die Streifen so aus, dass die Falzungen genau aneinander stoßen.
 7. Beginne nun, die Stanzungen nach innen zu falten.
 8. Tada! 🎉 Fertig ist dein PaperBall.
 9. Wenn du magst, kannst du nun mit Nadel und Faden eine Aufhängung hinzufügen. Und ab ans Fenster, den Baum... oder ans Ohr!
@@ -35,7 +35,7 @@ width: 0
 ----
 height: 800
 ----
-contents: Falte die Papierstreifen an den entsprechend vorgestanzten Stellen.
+contents: Falze die Papierstreifen an den entsprechend vorgefalzten Stellen. Und glätte sie dann wieder.
 #### block-image ####
 image: papierkugel_anleitung_14.jpg
 ----
@@ -43,7 +43,7 @@ width: 0
 ----
 height: 800
 ----
-contents: Forme 2 Streifen zu einem Kreis.
+contents: Forme 2 Streifen zu einem Kreis. Die Ringe müssen sich an den zwei kleinen Markierungen treffen.
 #### block-image ####
 image: papierkugel_anleitung_16.jpg
 ----
@@ -51,7 +51,7 @@ width: 0
 ----
 height: 800
 ----
-contents: Lege die Kreise ineinander.
+contents: Lege die Kreise ineinander. Achte darauf, dass bei einem Kreis der Klebestreifen oben ist und beim anderen nicht mehr zu sehen ist.
 #### block-image ####
 image: papierkugel_anleitung_19.jpg
 ----
@@ -59,7 +59,7 @@ width: 0
 ----
 height: 800
 ----
-contents: Fädel den 3. Steifen durch und forme auch ihn zu einem Kreis.
+contents: Fädel den 3. Steifen durch und forme auch ihn zu einem Kreis. Drehe ihn soweit, dass der Klebestreifen nicht mehr zu sehen ist und die Falzungen genau aneinander stoßen.
 #### block-image ####
 image: papierkugel_anleitung_21.jpg
 ----
