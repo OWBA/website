@@ -55,6 +55,7 @@ li svg { width: 1em; height: 1em; }
 .yt-vid .btn-play { position: absolute; width: 0; height: 0; top: 50%; left: 50%; }
 .yt-vid span { font-size: 0.8em; position: absolute; right: .7em; bottom: .5em; }
 .yt-vid svg { position: relative; width: 86px; height: 60px; top: -30px; left: -43px; }
+.yt-vid img { width: 100%; }
 
 .img-grid-block div {
 	display: inline-block;

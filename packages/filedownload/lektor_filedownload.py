@@ -3,6 +3,7 @@ from lektor.pluginsystem import Plugin
 from lektor.reporter import reporter
 import os
 import urllib.request as curl
+import urllib.error as webError
 
 
 class FileDownloadPlugin(Plugin):
@@ -17,13 +18,30 @@ class FileDownloadPlugin(Plugin):
                 return  # exists or in progress
             self.ongoing.append(dest)
             reporter.report_generic('Download: ' + src_url)
-            curl.urlretrieve(src_url, dest)
+            try:
+                curl.urlretrieve(src_url, dest)
+                success = True
+            except webError.HTTPError:
+                success = False
             self.ongoing.remove(dest)
+            return success
 
         def dl_yt_cover(vid, dest_dir, quality='maxres'):
             # vid = sender._data['vid']
-            pth = os.path.join(dest_dir, f'yt-{vid}.jpg')
-            dl_file(f'https://i.ytimg.com/vi/{vid}/{quality}default.jpg', pth)
+            pth = os.path.join(dest_dir, 'yt-{}.jpg'.format(vid))
+            if not vid:
+                return pth
+            # try with highest desired and available resolution first,
+            # fallback to lower res if needed
+            success = False
+            url = 'https://i.ytimg.com/vi/{}'.format(vid)
+            if not success and quality == 'maxres':
+                success = dl_file(url + '/maxresdefault.jpg', pth)
+                quality = 'hq'
+            if not success and quality == 'hq':
+                success = dl_file(url + '/hqdefault.jpg', pth)
+            if not success:
+                success = dl_file(url + '/default.jpg', pth)
             return pth
 
         self.env.jinja_env.globals['yt_cover'] = dl_yt_cover
