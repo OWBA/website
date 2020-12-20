@@ -1,16 +1,21 @@
 {%- from "macros/makros.html" import constrain_img, dayfmt -%}
 <div class="diy-grid">
-  {%- set all_diy = site.get('/diy').children -%}
+  {%- set arr = [] -%}
+  {%- for y in site.get('/diy').children -%}
+    {%- set arr = arr.append([
+      (y.short_title or y.title),
+      y.pub_date.strftime('%Y%m%d') if y.pub_date else '30000101',
+      y]) -%}
+  {%- endfor -%}
+  {%- set arr = arr|sort(attribute='0') -%}{#- sort by name -#}
 
-  {%- if this.sort_by == 'by-name' -%}
-    {%- set sorted_diy = all_diy.order_by('short_title') -%}
-  {%- elif this.sort_by == 'by-date-asc' -%}
-    {%- set sorted_diy = all_diy.order_by('pub_date', 'short_title') -%}
-  {%- elif this.sort_by == 'by-date-desc' -%}
-    {%- set sorted_diy = all_diy.order_by('-pub_date', 'short_title') -%}
+  {%- if this.sort_by == 'by-date-asc' -%}{#- oldest first -#}
+    {%- set arr = arr|sort(attribute='1') -%}
+  {%- elif this.sort_by == 'by-date-desc' -%}{#- newest first -#}
+    {%- set arr = arr|sort(attribute='1', reverse=True) -%}
   {%- endif -%}
 
-  {%- for x in sorted_diy -%}
+  {%- for _, _, x in arr -%}
   {%- set image = x.attachments.get(x.cover) -%}
   <a href="{{ x|url }}"><div>
     {%- if x.pub_date %}

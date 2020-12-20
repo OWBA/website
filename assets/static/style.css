@@ -73,7 +73,7 @@ li svg { width: 1em; height: 1em; }
 	height: 100%;
 }
 .img-grid-block div:hover {
-	scale: 1.1;
+	transform: scale(1.1);
 }
 
 /* DIY image grid */
@@ -81,5 +81,5 @@ li svg { width: 1em; height: 1em; }
 .diy-grid div { display: inline-block; width: 180px; margin: 6px; vertical-align: top; }
 .diy-grid time { display: none; }
 .diy-grid img { border-radius: 5px; height: 120px; width: 100%; background: #EEE; }
-.diy-grid a:hover img { scale: 1.1; }
+.diy-grid a:hover img { transform: scale(1.05); }
 .diy-grid p { margin: 0 6px; font-size: 0.85em; hyphens: auto; }
