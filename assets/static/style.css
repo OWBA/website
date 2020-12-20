@@ -82,5 +82,5 @@ li svg { width: 1em; height: 1em; }
 .diy-grid div { display: inline-block; width: 180px; margin: 6px; }
 .diy-grid time { display: none; }
 .diy-grid img { border-radius: 5px; height: 120px; width: 100%; background: #EEE; }
-.diy-grid a:hover img { mix-blend-mode: difference; }
+.diy-grid a:hover img { scale: 1.1; }
 .diy-grid p { margin: 0 6px; font-size: 0.85em; hyphens: auto; }
