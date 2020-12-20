@@ -10,23 +10,23 @@ content:
 Für das **Wikinger-Schach** brauchst du:  
 
 Material (z.B. aus dem Bastel-Beutel):  
-- Kubbs: 10 Kanthölzer (ca. 5x5cm, Länge 15cm)
-- König: 1 Kantholz (ca. 5x5cm, Länge 27cm)
-- Wurfhölzer: 6 Rundhölzer (ø ca. 30mm, Länge 25cm)
-- Begrenzungsstäbe: 4 Rundhölzer (ø ca. 15mm, Länge 25cm)
+- Kubbs: 10 Kanthölzer (ca. 5x5 cm, Länge 15 cm)
+- König: 1 Kantholz (ca. 5x5 cm, Länge 27 cm)
+- Wurfhölzer: 6 Rundhölzer (ø ca. 30 mm, Länge 25 cm)
+- Begrenzungsstäbe: 4 Rundhölzer (ø ca. 15 mm, Länge 25 cm)
 
 Werkzeug:  
 - Handsäge
 - Schleifpapier
 - Winkelmesser (Geodreieck)
-- ggf. Pinsel+Farbe
+- ggf. Pinsel und Farbe
 
 Und so geht´s:  
 1. Schneide dir das Material auf das entsprechende Material zu oder hole es... *schwupsdiwups*... aus deinem Bastel-Beutel.
-2. Der König bekommt noch eine Krone verpasst: Dafür zeichnest du eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden
+2. Der König bekommt noch eine Krone verpasst: Dafür zeichnest du eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden
 	Seite. Das machst du auf allen vier Seiten mit beiden Ecken.
 3. Anschließend sägst du die Krone mit einer Handsäge aus.
-4. Um die Krone noch deutlicher abzusetzen wird rundherum eine Fuge eingesägt: Hierfür zeichnest du ein Dreieck an der Seitenkante an, ebenfalls im 45ºWinkel, mit 6m Abstand zur Spitze der Krone. Die Füge wird 1,5cm breit.
+4. Um die Krone noch deutlicher abzusetzen wird rundherum eine Fuge eingesägt: Hierfür zeichnest du ein Dreieck an der Seitenkante an, ebenfalls im 45º Winkel, mit 6m Abstand zur Spitze der Krone. Die Füge wird 1,5 cm breit.
 5. Alle Kanten der zugeschnittenen Hölzer gründlich abschleifen und anschließend nach Lust und Laune bemalen. Mögen die Besten gewinnen!
 
 Jetzt fehlt nur noch ein super schniecker Beutel zur Aufbewahrung. Die Nähanleitung hierzu findest du in unserem DIY Bereich unter [Surprise
@@ -48,7 +48,7 @@ height: 0
 ----
 contents:
 
-Zeichne eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden Seite. 
+Zeichne eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden Seite. 
 #### block-image ####
 image: wikinger-schach-1b.jpeg
 ----
@@ -72,7 +72,7 @@ width: 0
 ----
 height: 0
 ----
-contents: Zeichne für die Fuge ein Dreieck an der Seitenkante an, ebenfalls im 45ºWinkel, mit 6m Abstand zur Spitze der Krone. Die Füge wird 1,5cm breit.
+contents: Zeichne für die Fuge ein Dreieck an der Seitenkante an, ebenfalls im 45º Winkel, mit 6 cm Abstand zur Spitze der Krone. Die Füge wird 1,5 cm breit.
 #### block-image ####
 image: wikinger-schach-4b.jpeg
 ----
