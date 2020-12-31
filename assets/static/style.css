@@ -28,6 +28,7 @@ footer {
 
 main ul { list-style: '❂ '; padding: 0 2em; }
 main ::marker { font-size: 1.25em; color: #F39; }
+del { color: #777; }
 
 .center,header,footer,.pagination { text-align: center; }
 a { color: #F39; text-decoration: none; }
