@@ -102,7 +102,7 @@ image: 11.jpg
 ----
 width: 0
 ----
-height: 0
+height: 800
 ----
 contents: Nun wird das Dreieck eingeschnitten. Auf einem separaten Modell habe ich dir die Schnitte eingezeichnet (schwarze Linien).
 #### block-image ####
@@ -110,7 +110,7 @@ image: 12.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Falte nun das Dreieck auf, so dass wieder das Sechseck vor dir liegt. Die einzelnen geschnittenen Dreiecke in der Mitte des Sechsecks werden nun abwechselnd nach oben/außen gefalten.
 #### block-image ####
