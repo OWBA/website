@@ -9,6 +9,7 @@
   <title>{% if this._path != '/' %}{% block title %}Willkommen{% endblock %} – {% endif %}{{ head.headtitle }}</title>
   <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ rss.title }}" href="{{ rss|url }}"/>
+  {% block head -%}{%- endblock %}
   {%- if head.meta %}
   {{ head.meta }}
   {%- endif %}
@@ -17,22 +18,32 @@
   <header>
     <h1><a href="{{'/'|url}}">{{ head.pagetitle }}</a></h1>
     <nav>
-      <ul>
-      {%- if '/' in head.nav_items %}
-        <li{% if this._path == '/' %} class="active"{% endif %}><a href="{{ '/'|url }}">{{ site.get('/').title }}</a></li>
+    {%- if '/' in head.nav_items %}
+      <a{% if this._path == '/' %} class="active"{% endif %} href="{{ '/'|url }}">{{ site.get('/').title }}</a>
+    {%- endif %}
+    {%- for x in site.get('/').children -%}
+      {%- if x.path in head.nav_items %}
+      {#%- set has_submenu = x._model == 'menu-page' -%#}
+      {%- if x.show_submenu -%}
+      <span class="submenu">
+        <a{% if this.is_child_of(x) %} class="active"{% endif %} href="{{ x|url }}">{{ x.title or x.record_label }}</a>
+        <div class="linkbox">
+          {%- for y in x.children -%}
+          <a{% if this.is_child_of(y) %} class="active"{% endif %} href="{{ y|url }}">{{ y.title or y.record_label }}</a>
+          {%- endfor -%}
+        </div>
+      </span>
+      {%- else -%}
+      <a{% if this.is_child_of(x) %} class="active"{% endif %} href="{{ x|url }}">{{ x.title or x.record_label }}</a>
+      {%- endif -%}
       {%- endif %}
-      {%- for x in site.get('/').children -%}
-        {%- if x.path in head.nav_items %}
-        <li{% if this.is_child_of(x) %} class="active"{% endif %}><a href="{{ x|url }}">{{ x.title or x.record_label }}</a></li>
-        {%- endif %}
-      {%- endfor %}
-      {%- for x in head.nav_items_additional.blocks %}
-        <li><a href="{{ x.link }}">{{ x.title }}</a></li>
-      {%- endfor %}
-      </ul>
+    {%- endfor %}
+    {%- for x in head.nav_items_additional.blocks %}
+      <a href="{{ x.link }}">{{ x.title }}</a>
+    {%- endfor %}
     </nav>
   </header>
-  <main{% block main_attr %}{% endblock %}>
+  <main>
     {% block body -%}{%- endblock %}
   </main>
   <footer>

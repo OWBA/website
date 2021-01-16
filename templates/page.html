@@ -1,2 +1,14 @@
 {%- extends "base-page.html" -%}
-{%- block body -%}{{ this.body }}{%- endblock -%}
+{%- block head -%}
+  {%- if this.show_submenu and not this.body -%}
+  <meta http-equiv="Refresh" content="0; url='{{ this.children.first() | url }}'" />
+  {%- endif -%}
+{%- endblock -%}
+{%- block body -%}
+  {%- if this.show_submenu and not this.body -%}
+  {%- set refto = this.children.first() -%}
+  <p>Einen Moment, du wirst weitergeleitet auf <a href="{{ refto|url }}">{{ refto.title or refto.record_label }}</a>.</p>
+  {%- else -%}
+  {{ this.body }}
+  {%- endif -%}
+{%- endblock -%}

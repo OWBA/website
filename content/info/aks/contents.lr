@@ -1,0 +1,78 @@
+_model: page
+---
+title: Arbeitskreise
+---
+body:
+
+#### block-text ####
+content: ## Arbeitskreise
+#### block-window-grid ####
+boxes:
+
+##### block-window #####
+title: AK Finanzen & Orga
+-----
+content:
+
+_kümmert sich um…_
+- Fördermittelanträge
+- Kontakt zu Behörden, Stiftungen, usw.
+- Mitgliedsbeiträge
+- Überblick und Planung von Einnahmen, Ausgaben & Rücklagen
+##### block-window #####
+title: AK Öffentlichkeitsarbeit
+-----
+content:
+
+_kümmert sich um…_
+- das Crowdfunding
+- Social Media Auftritte
+- Homepageinhalte
+- Flyer, Broschüren, Drucksachen
+- Pressearbeit
+- Netzwerkpflege
+##### block-window #####
+title: AK Workshops & Programm
+-----
+content:
+
+_kümmert sich um…_
+- Programm
+- Ideen für Workshops
+- Aquise von Dozent:innen
+##### block-window #####
+title: AK Holzwerkstatt
+-----
+content:
+
+_kümmert sich um…_
+- Anschaffung und Aufbau von Maschinen für die Holzwerkstatt
+- Einrichtung und Wartung der Holzwerkstatt
+##### block-window #####
+title: AK Pappe, Papier, Stoff
+-----
+content:
+
+_kümmert sich um…_
+- Anschaffung Werkzeug und Material für die Papier- und Stoffwerkstatt
+- Einrichtung und Wartung der Papier- und Stoffwerkstatt
+##### block-window #####
+title: AK Fahrrad & Metall
+-----
+content:
+
+_kümmert sich um…_
+- Anschaffung und Aufbau von Maschinen und Werkzeug für die Metallwerkstatt
+- Einrichtung und Wartung der Metallwerkstatt
+##### block-window #####
+title: AK Werkstattbetrieb
+-----
+content:
+
+_kümmert sich um…_
+- Ausarbeitung von Abläufen & Regeln für den Werkstattbetrieb
+- Den organisatorischen Rahmen
+#### block-text ####
+content: Du möchstest mitmachen und interessiert dich für ein bestimmtes Thema? Du kennst dich damit besonders gut aus oder willst es gerade erst erlernen? So oder so freuen wir uns dich dabei zu haben wenn du möchtest. Schau doch mal bei [Kontakt](/kontakt/) wie du uns erreichen kannst.
+---
+index: 20
