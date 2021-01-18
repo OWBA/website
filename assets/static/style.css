@@ -46,6 +46,7 @@ a.active { text-decoration: underline; }
 
 nav .submenu > a {
   touch-action: none;
+  pointer-events: none;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
