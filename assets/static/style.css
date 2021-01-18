@@ -44,13 +44,13 @@ a:hover { color: #CC287A; }
 a.active { text-decoration: underline; }
 .pagination { margin-top: 50px; }
 
-nav .submenu {
-  position: relative;
+nav .submenu > a {
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
 }
+nav .submenu { position: relative; }
 nav .submenu:before { content: '▿'; color: #F39; }
 nav .submenu .linkbox { display: none; }
 nav .submenu:hover .linkbox {
