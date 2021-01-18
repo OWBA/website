@@ -19,22 +19,22 @@
     <h1><a href="{{'/'|url}}">{{ head.pagetitle }}</a></h1>
     <nav>
     {%- if '/' in head.nav_items %}
-      <a{% if this._path == '/' %} class="active"{% endif %} href="{{ '/'|url }}">{{ site.get('/').title }}</a>
+      <a{% if this._path == '/' %} class="underline"{% endif %} href="{{ '/'|url }}">{{ site.get('/').title }}</a>
     {%- endif %}
     {%- for x in site.get('/').children -%}
       {%- if x.path in head.nav_items %}
       {#%- set has_submenu = x._model == 'menu-page' -%#}
       {%- if x.show_submenu -%}
       <span class="submenu">
-        <a{% if this.is_child_of(x) %} class="active"{% endif %} href="{{ x|url }}">{{ x.title or x.record_label }}</a>
+        <button class="no-style{% if this.is_child_of(x) %} underline{% endif %}">{{ x.title or x.record_label }}</button>
         <div class="linkbox">
           {%- for y in x.children -%}
-          <a{% if this.is_child_of(y) %} class="active"{% endif %} href="{{ y|url }}">{{ y.title or y.record_label }}</a>
+          <a{% if this.is_child_of(y) %} class="underline"{% endif %} href="{{ y|url }}">{{ y.title or y.record_label }}</a>
           {%- endfor -%}
         </div>
       </span>
       {%- else -%}
-      <a{% if this.is_child_of(x) %} class="active"{% endif %} href="{{ x|url }}">{{ x.title or x.record_label }}</a>
+      <a{% if this.is_child_of(x) %} class="underline"{% endif %} href="{{ x|url }}">{{ x.title or x.record_label }}</a>
       {%- endif -%}
       {%- endif %}
     {%- endfor %}
