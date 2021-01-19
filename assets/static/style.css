@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Dosis';
+  font-weight: 300;
   src: url(/static/Dosis.ttf);
 }
 body {
   font-family: Dosis, Helvetica Neue, sans-serif;
-  font-weight: 300;
   font-size: 1.1em;
   max-width: 750px;
   margin: 0 auto;
@@ -18,7 +18,7 @@ body {
   .linkbox a { background: #2A2A2A; }
 }
 
-header h1 { line-height: 1.2; font-weight: 400; }
+header h1 { line-height: 1.2; font-weight: 700; }
 header nav > * { margin: 0 1em 1ex 0; display: inline-block; }
 footer { font-size: 0.9em; margin: 80px auto 0; }
 del { color: #777; }
