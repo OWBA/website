@@ -17,7 +17,7 @@
 <body>
   <header>
     <h1><a href="{{'/'|url}}">{{ head.pagetitle }}</a></h1>
-    <nav>
+    <nav class="font">
     {%- if '/' in head.nav_items %}
       <a{% if this._path == '/' %} class="underline"{% endif %} href="{{ '/'|url }}">{{ site.get('/').title }}</a>
     {%- endif %}

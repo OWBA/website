@@ -1,11 +1,9 @@
-@font-face {
-  font-family: 'Dosis';
-  src: url(/static/Dosis.ttf);
-}
+@font-face { font-family: 'Dosis'; src: url(/static/Dosis.ttf); }
+@font-face { font-family: 'Piazzolla'; src: url(/static/Piazzolla.ttf); }
+@font-face { font-family: 'Piazzolla'; font-style: italic; src: url(/static/Piazzolla-Italic.ttf); }
 body {
-  font-family: Dosis, Helvetica Neue, sans-serif;
+  font-family: Piazzolla, Helvetica Neue, sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
   max-width: 750px;
   margin: 0 auto;
   padding: 1em 2em;
@@ -18,18 +16,22 @@ body {
   .linkbox a { background: #2A2A2A; }
 }
 
-header h1 { line-height: 1.2; font-weight: 700; }
+h1,h2,h3,h4,h5,h6,nav,.font {
+  font-family: Dosis, Helvetica Neue, sans-serif;
+}
+.font { font-size: 1.1em; font-weight: normal; }
+h2,h3,h4,h5,h6 { margin-top: 1.5em; font-weight: normal; }
+header h1 { line-height: 1.2; font-size: 2.3em; }
 header nav > * { margin: 0 1em 1ex 0; display: inline-block; }
 footer { font-size: 0.9em; margin: 80px auto 0; }
 del { color: #777; }
-strong { font-weight: 600; }
+b, strong { font-weight: 600; }
 main ::marker { font-size: 1.25em; color: #F39; }
 
 nav svg { width: 1em; height: 1em; }
 svg { fill: #f39; }
 svg:hover { fill: #CC287A; }
 
-h2,h3 { margin-top: 1.5em; font-weight: lighter; }
 ul { list-style: none; line-height: 1.5; padding: 0 2em; }
 ul li:before {
   content: '❂';
