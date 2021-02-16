@@ -45,6 +45,17 @@ link: http://machbar-bamberg.de
 description: 
 #### block-text ####
 content: ## für Sponsoring und Unterstützung
+#### block-img-grid ####
+grid:
+
+##### nav-img-grid #####
+title: Baumpflege Dauven
+-----
+image: logo-baumpflege-dauven.png
+-----
+link: https://baumpflege-dauven.de/
+-----
+description: 
 #### block-text ####
 content: ## für Förderung
 #### block-img-grid ####
