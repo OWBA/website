@@ -43,7 +43,7 @@
   <img src="{{ image|url }}" alt="{{ alt }}">
   {%- else -%}
   {%- if clickable %}
-  <a href="{{ image|url }}">
+  <a href="{{ image|url }}" title="Bild anzeigen">
   {%- endif %}
   {%- if mode == 'crop' %}
     <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, crop=True)|url }}" alt="{{ alt }}">
