@@ -6,19 +6,21 @@ title: Aktuelles
 ---
 body:
 
+#### block-image ####
+image: workshops-03-maerz-1.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: 
 #### block-text ####
 content:
 
-Wir suchen Mitbegeisterte, 
+Nähere Infos und die Möglichkeit zum Anmelden findest du **[hier](https://pretix.eu/OWBA/)**.  
+Also klick dich durch, lass dich inspirieren und sicher dir dein Workshop-Kit!
 
-die ersten Arbeitskreise haben sich gebildet und suchen nach Zulauf.  
-Wenn dich ein Thema interessiert, [melde dich](/kontakt/) doch einfach direkt bei uns :)
-
-Momentan beschäftigt uns: Finanzierung, Social Media, Beschaffung von Geräten und Materialien.
-
-Vielen Dank für das erfolgreiche [Crowdfunding][0]! Bald folgen die Bilder von unseren Anschaffungen.
-
-[0]: https://www.startnext.com/offene-werkstatt-bamberg
+Auf bald! 
 #### block-selected-post ####
 post: #
 ----
