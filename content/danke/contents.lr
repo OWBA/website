@@ -43,6 +43,14 @@ image: logo-machbar.svg
 link: http://machbar-bamberg.de
 -----
 description: 
+##### nav-img-grid #####
+title: Unverpackt Bamberg
+-----
+image: logo-unverpackt.svg
+-----
+link: https://unverpackt-bamberg.de/
+-----
+description: 
 #### block-text ####
 content: ## für Sponsoring und Unterstützung
 #### block-img-grid ####
@@ -54,6 +62,14 @@ title: Baumpflege Dauven
 image: logo-baumpflege-dauven.png
 -----
 link: https://baumpflege-dauven.de/
+-----
+description: 
+##### nav-img-grid #####
+title: Der Radladen
+-----
+image: logo-radladen.svg
+-----
+link: https://www.radladen-bamberg.de/
 -----
 description: 
 #### block-text ####
