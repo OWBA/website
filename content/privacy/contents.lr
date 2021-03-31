@@ -13,6 +13,11 @@ content:
 
 Auf dieser Webseite werden keine personenbezogenen Daten erhoben.
 
-Einige Daten werden jedoch technisch bedingt automatisch erfasst und gespeichert. Diese Daten werden von Ihrem Browser automatisch gesendet und beinhalten Browsertyp und -version, die Referrer-URL, Ihre IP-Adresse sowie Datum und Uhrzeit der Anfrage. Diese Daten sind nicht bestimmten Personen zuordenbar und werden explizit nicht ausgewertet. Wir verwenden die Daten ausschließlich zum Schutz vor, und zur Nachvollziehbarkeit von, Angriffen auf diese Webseite.
+Einige Daten werden jedoch technisch bedingt automatisch erfasst. Diese Daten werden von Ihrem Browser automatisch gesendet und beinhalten Browsertyp und -version, die Referrer-URL, Ihre IP-Adresse sowie Datum und Uhrzeit der Anfrage. Diese Daten sind nicht bestimmten Personen zuordenbar und werden explizit weder ausgewertet noch gespeichert.
 
-Bei offenen Fragen zum Datenschutz und für Auskunftsgesuche: [datenschutz@owba.de](mailto:datenschutz@owba.de)
+Bei offenen Fragen zum Datenschutz schreibe eine E-mail an [datenschutz@owba.de](mailto:datenschutz@owba.de).
+
+
+### Pretix
+
+Für das Buchen der Workshops verwenden wir pretix.eu. Wenn du dich entscheidest bei einem (Online-) Workshop mitzumachen, erfassen und verarbeiten wir deine E-Mail Adresse und deinen Namen. Wir verarbeiten diese Daten nur zum Zwecke der Durchführung des Workshops und löschen diese Daten danach. Da wir hier mit einem Dritthersteller arbeiten (pretix.eu), werden deine Daten auf einem Server gespeichert, auf den wir keinen direkten Zugriff haben. Die Server stehen in Deutschland und es greift deutsches Datenschutzrecht. Siehe hierfür auch den Datenschutz Hinweis auf der Bestellseite.
