@@ -2,8 +2,6 @@ _model: page
 ---
 title: Öffnungszeiten
 ---
-index: 10
----
 body:
 
 #### block-text ####
@@ -21,4 +19,7 @@ Vorläufige Planung:
 * Samstag: 10:00-16:00Uhr  
 
 Dazu kommen weitere Angebote zu bestimmten Themen bzw. unter bestimmten Mottos, Einführungen, Workshops und externe Veranstaltungen.  
-Bei Anfragen oder Anregungen schreib uns gerne:  [info@owba.de](mailto:info@owba.de) 
+Bei Anfragen oder Anregungen schreib uns gerne:  [info@owba.de](mailto:info@owba.de)
+
+---
+index: 10

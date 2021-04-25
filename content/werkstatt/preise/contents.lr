@@ -2,8 +2,6 @@ _model: page
 ---
 title: Preise
 ---
-index: 20
----
 body:
 
 #### block-text ####
@@ -12,18 +10,18 @@ content:
 ## Preisliste 
 
 ### WERKSTATTNUTZUNG
-1 Stunde 2€ bzw. 3€  
-30 Tage: 35€  
-Vereinsmitglieder 25€  
+1 Stunde: 2 € bzw. 3 €  
+30 Tage: 35 €  
+Vereinsmitglieder 25 €  
 
 ### SPEZIALGERÄTE
 werden immer separat abgerechnet
-5min= 0,50€
+5 min = 0,50 €
 
 ### GEWERBLICHE NUTZUNG
-wird auf Anfrage separat abgerechnet.  
+nur auf Anfrage.  
 
-**Allgemeine Infos:**
+## Allgemeine Infos
 1. Nutzung der Werkstatt während der Öffnungszeiten nach
 unterschriebenem Haftungsausschuss (AGB).
 2. Alle Angebote richten sich an Privatpersonen. Gewerbliche
@@ -31,3 +29,6 @@ Nutzung bitte anfragen. Diese wird separat abgerechnet.
 3. Material, soweit nicht anders vereinbart (z.B. Workshop), bitte
 immer selbst mitbringen.
 4. Verbrauchsmaterial kann zum Teil gegen Spende erworben werden.
+
+---
+index: 15

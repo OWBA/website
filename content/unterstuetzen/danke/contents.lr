@@ -2,7 +2,7 @@ _model: page
 ---
 title: Wir danken
 ---
-index: 23
+index: 40
 ---
 body:
 
@@ -109,5 +109,3 @@ image: logo-sparkasse.svg
 link: 
 -----
 description: 
----
-_slug: 
