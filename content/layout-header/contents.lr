@@ -19,7 +19,7 @@ meta:
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/custom-style.css">
 ---
-nav_items: /news, /diy, /info, /werkstatt, /mitmachen, /unterstuetzen
+nav_items: /news, /werkstatt, /diy, /mitmachen, /unterstuetzen
 ---
 nav_items_additional:
 
