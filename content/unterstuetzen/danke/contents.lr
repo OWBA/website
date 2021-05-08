@@ -7,7 +7,10 @@ index: 40
 body:
 
 #### block-text ####
-content: ## für fruchtbare Kooperation
+content:
+
+##Wir danken...  
+## ... für fruchtbare Kooperation
 #### block-img-grid ####
 grid:
 
@@ -52,7 +55,7 @@ link: https://unverpackt-bamberg.de/
 -----
 description: 
 #### block-text ####
-content: ## für Sponsoring und Unterstützung
+content: ## ... für Sponsoring und Unterstützung
 #### block-img-grid ####
 grid:
 
@@ -73,7 +76,7 @@ link: https://www.radladen-bamberg.de/
 -----
 description: 
 #### block-text ####
-content: ## für Förderung
+content: ## ... für Förderung
 #### block-img-grid ####
 grid:
 
