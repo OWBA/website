@@ -17,6 +17,14 @@ Spendenkonto:
 	DE13 7705 0000 0303 3517 20
 	BYLADEM1SKB
 
+
+Wenn dir eine Überweisung zu umständlich ist, haben wir auch einen PayPal Spenden Button für dich:
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="NHQ7HKJBTDJVL" />
+<input type="image" src="paypal.gif" border="0" name="submit" title="PayPal donation" alt="Donate with PayPal button" />
+</form>
+
 **Danke!!**
 ---
 index: 20
