@@ -11,12 +11,14 @@ content:
 
 Die Offene Werkstatt Bamberg ist ein gemeinütziger Verein. Wir können daher Spendenquittungen ausstellen.  
 
-Spendenkonto:
+### Spendenkonto
 
 	Offene Werkstatt Bamberg e.V.
 	DE13 7705 0000 0303 3517 20
 	BYLADEM1SKB
 
+
+### PayPal
 
 Wenn dir eine Überweisung zu umständlich ist, haben wir auch einen PayPal Spenden Button für dich:
 
@@ -24,6 +26,8 @@ Wenn dir eine Überweisung zu umständlich ist, haben wir auch einen PayPal Spen
 <input type="hidden" name="hosted_button_id" value="NHQ7HKJBTDJVL" />
 <input type="image" src="paypal.gif" border="0" name="submit" title="PayPal donation" alt="Donate with PayPal button" />
 </form>
+
+<img alt="PayPal QR Code" width="136" src="./paypal-qr.png">
 
 **Danke!!**
 ---
