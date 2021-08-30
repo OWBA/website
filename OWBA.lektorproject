@@ -10,7 +10,7 @@ target = path:///srv/http/de-owba
 
 [servers.git-commit]
 name = Git: Commit
-target = cmd://git/add * && git commit -m 'Automerge changes' && git push
+target = cmd://git/add * && git commit -m 'Automerge changes'; git push
 
 [servers.git-pull]
 name = Git: Pull
@@ -23,7 +23,3 @@ target = cmd://git/status
 [servers.git-diff]
 name = Git: Diff
 target = cmd://git/diff
-
-[servers.lektor-rebuild-plugins]
-name = Lektor: Rebuild Plugins
-target = cmd://lektor/plugins flush-cache && lektor plugins list && echo done.
