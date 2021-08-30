@@ -1,0 +1,48 @@
+_model: page
+---
+title: Galerie
+---
+index: 30
+---
+body:
+
+#### block-image ####
+image: img-1572.JPG
+----
+width: 0
+----
+height: 800
+----
+contents: Eingangsbereich
+#### block-image ####
+image: img-1575.JPG
+----
+width: 0
+----
+height: 800
+----
+contents: Papier-Stoff-Bereich
+#### block-image ####
+image: img-5486.JPG
+----
+width: 0
+----
+height: 800
+----
+contents: Holzbereich 1
+#### block-image ####
+image: img-5509.JPG
+----
+width: 0
+----
+height: 800
+----
+contents: Holzbereich 2
+#### block-image ####
+image: img-5492.JPG
+----
+width: 0
+----
+height: 800
+----
+contents: Metallbereich
