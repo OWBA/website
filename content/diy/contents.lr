@@ -9,38 +9,23 @@ body:
 #### block-text ####
 content:
 
-## Do It Yourself
+## Workshops
 
-Hallo und Herzlich Willkommen...
+### Kommende Veranstaltungen:
+* 16.09.21: [Handlettering](https://pretix.eu/OWBA/handlettering/) mit Nadine
+* 23.09.21: [Notizbücher mit herausnehmbaren Inlays](https://pretix.eu/OWBA/notizbuecher/) mit Judit
+* 25./ 26.09.21: [Cyanotypie](https://pretix.eu/OWBA/cyanotypie/) mit Louise
 
-... zu den **Workshops der Offenen Werkstatt Bamberg**!
-
-Nächste Workshops:
-* 25.08.21, Notizbücher mit herausnehmbaren Inlays  
-* 01.09.21, Zauberleporellos für die Ferienbetreuung bei DonBosco  
-* 25./ 26.09.21, Cyanotypie  
-* außerdem: Fahrrad-Wartungs-Kurs, Buch-Reparatur-Sprechstunden  
-
-Alle Infos und die Möglichkeit zum Anmelden findest du hier: https://pretix.eu/OWBA/   
+**Alle Infos und die Möglichkeit zum Anmelden findest du hier: https://pretix.eu/OWBA/**   
 Der OWBA-Newsletter hält dich mit dem aktuellen Workshop-Programm auf dem Laufenden:  
 ⤳ Kurze Mail an [newsletter@owba.de](mailto:newsletter@owba.de)  
+
+**Du hast Lust, auch mal einen Workshop anzubieten oder suchst Leute, die mit dir gemeinsam etwas ausprobieren? Dann schreibe uns an [workshop@owba.de](mailto:workshop@owba.de).**
 
 Und hier geht’s zu den Anleitungen der vergangenen Workshops:
 #### block-diy-grid ####
 sort_by: by-date-desc
 #### block-text ####
-content:
-
-Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #OWBA
-
-In diesem Sinne: Frohes Schaffen!
-#### block-image ####
-image: prepare.jpg
-----
-width: 0
-----
-height: 600
-----
-contents: 
+content: Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #OWBA
 ---
 index: 15
