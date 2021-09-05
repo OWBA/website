@@ -1,11 +1,20 @@
 _model: page
 ---
-title: Arbeitskreise
+title: Dich einbringen
 ---
 body:
 
 #### block-text ####
-content: ## Arbeitskreise
+content:
+
+## Du möchtest dich einbringen?
+
+Du möchtest mitmachen und interessierst dich für ein bestimmtes Thema? Du kennst dich mit etwas besonders gut aus oder willst es gerade erst erlernen? So oder so freuen wir uns, wenn du Lust hast, dabei zu sein. Wir treffen uns immer __Donnerstags, um 19.00 Uhr direkt bei der Werkstatt__. Die Treffen sind offen gestaltet, so dass du jederzeit mit einsteigen oder ganz unverbindlich reinschnuppern kannst.
+
+Wir freuen uns über jegliche Unterstützung. Sei es [finanziell](/unterstuetzen/spende/), mit Know-How, durch Mithelfen beim Thekenbetrieb, oder schlicht durch deine zur Verfügung gestellte Zeit ([Mitglied werden](/unterstuetzen/mitglied-werden/)). Vielleicht hast du auch einfach nur etwas [abzugeben](/unterstuetzen/wunschliste/)?
+
+
+## Arbeitskreise
 #### block-window-grid ####
 boxes:
 
@@ -72,7 +81,5 @@ content:
 _kümmert sich um…_
 - Ausarbeitung von Abläufen & Regeln für den Werkstattbetrieb
 - Den organisatorischen Rahmen
-#### block-text ####
-content: Du möchtest mitmachen und interessierst dich für ein bestimmtes Thema? Du kennst dich mit etwas besonders gut aus oder willst es gerade erst erlernen? So oder so freuen wir uns, wenn du Lust hast, dabei zu sein. Schau doch mal [hier](/mitmachen/einbringen/), wie du uns erreichen kannst.
 ---
-index: 20
+index: 10

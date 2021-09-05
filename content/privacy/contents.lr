@@ -11,16 +11,36 @@ content:
 
 ## Datenschutzerklärung
 
+Bei offenen Fragen zum Datenschutz, wende dich an [datenschutz@owba.de](mailto:datenschutz@owba.de).
+
+
+### Webseite
+
 Auf dieser Webseite werden keine personenbezogenen Daten erhoben.
 
 Einige Daten werden jedoch technisch bedingt automatisch erfasst. Diese Daten werden vom Browser automatisch gesendet und beinhalten Browsertyp und -version, die Referrer-URL, Ihre IP-Adresse sowie Datum und Uhrzeit der Anfrage. Diese Daten sind nicht bestimmten Personen zuordenbar und werden explizit weder ausgewertet noch gespeichert.
 
-Bei offenen Fragen zum Datenschutz schreibe eine E-mail an [datenschutz@owba.de](mailto:datenschutz@owba.de).
+Für unsere Webseite nutzen wir netcup.de. Der Standort der Server ist ausschließlich Deutschland. Es erfolgt eine Auftragsverarbeitung durch netcup.de.
 
-### Serverstandort
+⤳ Hier kommst du zur [Datenschutzerklärung von netcup](https://www.netcup.de/kontakt/datenschutzerklaerung.php).
 
-Der Standort unserer Webserver und Nextcloudserver ist ausschließlich in Deutschland. Die Bereitstellung der Server, sowie die Auftragsverarbeitung erfolgt durch netcup.de.
+
+### E-Mail
+
+Für die direkte E-Mail Kommunikation verwenden wir ebenfalls netcup.de (siehe oben, Webseite). Es werden deine persönlichen Daten verarbeitet, die du uns eigenständig bereit stellst. Dazu gehört deine E-Mail Adresse, ein eventuell vom E-Mail-Programm hinterlegter Name, sowie der Inhalt der E-Mail und Meta Informationen die autmatisch mitgesendet werden (Datum, Uhrzeit, E-Mail-Header, etc.).
+
+
+### E-Mail Newsletter
+
+Für den Newsletterversand nutzen wir sendinblue.com.  
+Wenn du dich entscheidest unseren Newsletter zu abonnieren, erfassen wir deine E-Mail Adresse. Die E-Mail Adresse wird ausschließlich zum Zweck des Newsletterversands verwendet. Es erfolgt eine Auftragsverarbeitung durch sendinblue.com. Der Serverstandort ist ausschließlich Deutschland. Deine Daten werden zudem automatisch gelöscht, sobald du dich vom Newsletter abmeldest. Ein Link zum Abmelden findest du in jeder zugestellten E-Mail.
+
+⤳ Hier kommst du zu den [Nutzungsbedingungen von sendinblue](https://de.sendinblue.com/legal/termsofuse/).
+
 
 ### Pretix
 
-Für das Buchen der Workshops verwenden wir pretix.eu. Wenn du dich entscheidest bei einem (Online-) Workshop mitzumachen, erfassen und verarbeiten wir deine E-Mail Adresse, deinen Namen und die Zahlungsmethode. Wir verarbeiten diese Daten nur zum Zwecke der Durchführung des Workshops. Da wir hier mit einem Dritthersteller arbeiten (pretix.eu), werden deine Daten auf einem Server gespeichert, auf den wir keinen direkten Zugriff haben. Die Server stehen in Deutschland und es greift deutsches Datenschutzrecht. Siehe hierfür auch den Datenschutz Hinweis auf der Bestellseite.
+Für das Buchen der Workshops verwenden wir pretix.eu.  
+Wenn du dich entscheidest bei einem (Online-) Workshop mitzumachen, erfassen und verarbeiten wir deine E-Mail Adresse, deinen Namen und die Zahlungsmethode. Wir verarbeiten diese Daten nur zum Zwecke der Durchführung des Workshops. Da wir hier mit einem Dritthersteller arbeiten (pretix.eu), werden deine Daten auf einem Server gespeichert, auf den wir keinen direkten Zugriff haben. Die Server stehen in Deutschland und es greift deutsches Datenschutzrecht. Siehe hierfür auch den Datenschutz Hinweis auf der Bestellseite.
+
+⤳ Hier kommst du zur [Datenschutzerklärung von pretix](https://pretix.eu/about/de/privacy).

@@ -1,9 +1,7 @@
 _model: page
 ---
-title: Mitmachen
+title: Info
 ---
-index: 20
+index: 30
 ---
 show_submenu: yes
----
-body: 

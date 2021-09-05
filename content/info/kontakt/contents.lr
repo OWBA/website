@@ -1,0 +1,43 @@
+_model: page
+---
+title: Kontakt
+---
+index: 10
+---
+body:
+
+#### block-text ####
+content:
+
+## Kontakt
+
+Bei Anfragen oder Anregungen schreib uns gerne eine E-Mail oder komme in den [Telegram Chat](https://t.me/joinchat/PUSUtkdYxAiSwY8mna3vhA). Das Telefon ist nur während der Öffnungszeiten besetzt.
+
+Email: [info@owba.de](mailto:info@owba.de)  
+Telefon: [0951-29909554](tel:+4995129909554)  
+
+
+### Öffnungszeiten   
+
+<table>
+<tr><td>Mittwoch:</td> <td>17:00 – 21:00 Uhr</td></tr>
+<tr><td>Donnerstag:</td> <td>17:00 – 21:00 Uhr</td></tr>
+<tr><td>Samstag:</td> <td>10:00 – 16:00 Uhr</td></tr>
+</table>
+  
+Keine Anmeldung erforderlich.  
+
+### Vor Ort
+
+<address>
+Offene Werkstatt Bamberg <br>
+Weißenburgstraße 10 <br>
+96052 Bamberg
+</address>
+
+Öffnen in: [Google Maps] oder [OpenStreetMap]
+
+Der Eingang der Werkstatt befindet sich auf der *Hausrückseite*!
+
+[Google Maps]: https://www.google.com/maps/place/49°54'14.4"N+10°54'46.7"E
+[OpenStreetMap]: https://www.openstreetmap.org/#map=19/49.904/10.912425
