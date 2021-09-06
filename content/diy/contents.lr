@@ -2,7 +2,7 @@ _model: diy-overview
 ---
 _template: page.html
 ---
-title: DIY
+title: Workshops
 ---
 body:
 
@@ -27,4 +27,4 @@ sort_by: by-date-desc
 #### block-text ####
 content: Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #OWBA
 ---
-index: 15
+index: 10
