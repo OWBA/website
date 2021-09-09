@@ -37,21 +37,29 @@
 {%- endmacro -%}
 
 
-{%- macro constrain_img(image, w=0, h=0, alt='Bild', clickable=True, mode=None) -%}
-  {%- set _mw = 950 - 2 * 40 -%}{#- body max-width minus figure margin -#}
-  {%- if not w and not h and image.width < _mw %}
-  <img src="{{ image|url }}" alt="{{ alt }}">
-  {%- else -%}
-  {%- if clickable %}
-  <a href="{{ image|url }}" title="Bild anzeigen">
-  {%- endif %}
-  {%- if mode == 'crop' %}
-    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None, crop=True)|url }}" alt="{{ alt }}">
-  {%- else %}
-    <img src="{{ image.thumbnail(width=w or (image.width if image.width < _mw else _mw), height=h or None)|url }}" alt="{{ alt }}">
-  {%- endif %}
-  {%- if clickable %}
-  </a>
+{%- macro constrain_img(image, alt, w=None, h=None, mode=None) -%}
+  {%- set _mw = 830 - 2 * 40 -%}{#- body max-width minus figure margin -#}
+  {%- if not mode -%}
+
+    {%- if w and w < image.width -%}
+      {%- set w = _mw if w > _mw else w -%}
+    {%- else -%}
+      {%- set w = _mw if image.width > _mw else None -%}
+    {%- endif -%}
+
+    {%- set h = h if (h and h < image.height) else None -%}
+    {%- if w and h -%}
+      {%- if h >= (w / image.width * image.height) -%}
+        {%- set h = None -%}
+      {%- elif w >= (h / image.height * image.width) -%}
+        {%- set w = None -%}
+      {%- endif -%}
+    {%- endif -%}
+
   {%- endif -%}
+  {%- if w or h or image.width > _mw -%}
+  <img src="{{ image.thumbnail(width=w, height=h, mode=mode, upscale=False)|url }}" alt="{{ alt }}">
+  {%- else %}
+  <img src="{{ image|url }}" alt="{{ alt }}">
   {%- endif %}
 {%- endmacro -%}

@@ -1,4 +1,4 @@
-title: Surprise-Bag 👜
+title: Surprise-Bag
 ---
 body:
 
@@ -27,7 +27,7 @@ Und so geht’s:
 6. Für die Standfestigkeit können die Kanten noch extra mit einem Steppstich (1 cm Nahzugabe) vernäht werden. Dazu wird die Bag gewendet. Anschließend fixierst du die Kante entlang bis zur Öffnung. Dabei solltest du durchgängig den Abstand Seitennaht zur Kante beibehalten. Es werden alle vier Kanten vernäht sowie die Vorder-/Rückseite zum Boden – nicht die Seitenteile.
 7. Als Verschluss kannst du ganz unterschiedliche Reste nutzen wie z.B. einen alten Gürtel, Klettband oder einen Knopf mit einer Schlaufe. Ich habe eine Drucköse an beiden Seiten angebracht und Lederband durchgefädelt. In der Innenseite hat das Lederband einen Knoten.
 #### block-image ####
-image: sb-1.jpeg
+image: img-1.jpg
 ----
 width: 0
 ----
@@ -37,7 +37,7 @@ contents:
 
 Lege den Stoff bündig aufeinander. Die Innenseite des Stoffs schaut dabei nach oben bzw. die Außenseiten zueinander. Nun zeichnest du am Stoffbruch jeweils eine Quadrat mit den Maßen 7x7 cm an. 
 #### block-image ####
-image: sb-2.jpeg
+image: img-2.jpg
 ----
 width: 0
 ----
@@ -45,7 +45,7 @@ height: 0
 ----
 contents: Schneide die Ecken aus, die später den Boden bzw. die Seitenteile ergeben.
 #### block-image ####
-image: sb-3.jpeg
+image: img-3.jpg
 ----
 width: 0
 ----
@@ -56,7 +56,7 @@ contents:
 Versäubere den Stoff ringsum mit einem Zickzackstich. Anschließend legst du den Stoff wie zu Anfang rechts auf rechts und nähst die Seitennähte mit 1 cm
 Nahtzugabe zusammen.
 #### block-image ####
-image: sb-4.jpeg
+image: img-4.jpg
 ----
 width: 0
 ----
@@ -66,7 +66,7 @@ contents:
 
 Wichtig! Die ausgeschnittenen Ecken bleiben weiterhin offen. 
 #### block-image ####
-image: sb-5.jpeg
+image: img-5.jpg
 ----
 width: 0
 ----
@@ -74,7 +74,7 @@ height: 0
 ----
 contents: Die Ecken werden vernäht, um den Boden zu bilden. Hierfür wird aus dem überschüssigen Stoff ein Dreieck geformt und vernäht.
 #### block-image ####
-image: sb-6.jpeg
+image: img-6.jpg
 ----
 width: 0
 ----
@@ -82,7 +82,7 @@ height: 0
 ----
 contents: Für die Standfestigkeit können die Kanten noch extra mit einem Steppstich (1 cm Nachzugabe) vernäht werden. Dazu wird die Bag gewendet. Anschließend fixierst du die Kante entlang bis zur Öffnung. Dabei solltest du durchgängig den Abstand Seitennaht zur Kante beibehalten. Es werden alle vier Kanten vernäht sowie die Vorder-/Rückseite zum Boden – nicht die Seitenteile.
 #### block-image ####
-image: sb-7.jpeg
+image: img.jpg
 ----
 width: 0
 ----
@@ -90,8 +90,6 @@ height: 0
 ----
 contents: Noch ein Verschluss deiner Wahl... Tataa!
 ---
-cover: sb-7.jpeg
+cover: img.jpg
 ---
 pub_date: 2020-12-20
----
-short_title: Surprise-Bag

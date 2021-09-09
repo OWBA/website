@@ -5,7 +5,7 @@
 <h2 class="center">{{ this.title }}</h2>
 {%- if image._attachment_type == 'image' %}
 <figure>
-  {{ constrain_img(image, h=800, alt='Titelcover', clickable=False) }}
+  {{ constrain_img(image, 'Titelcover', h=800) }}
 </figure>
 {%- endif %}
 {{ this.body }}

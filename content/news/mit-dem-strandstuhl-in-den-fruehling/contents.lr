@@ -3,11 +3,11 @@ title: Mit dem Strandstuhl in den Frühling
 body:
 
 #### block-image ####
-image: strandstuhl.jpg
+image: img.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: 
 #### block-text ####

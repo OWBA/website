@@ -2,9 +2,9 @@
 {%- set image = record.attachments.get(this.image) -%}
 {%- if image._attachment_type == 'image' -%}
 <figure>
-  {{ constrain_img(image,
-                   w=this.width if this.width > 0 else None,
-                   h=this.height if this.height > 0 else None) }}
+  <a href="{{ image|url }}" title="Bild anzeigen">
+  {{ constrain_img(image, 'Bild', w=this.width, h=this.height) }}
+  </a>
   <figcaption>{{ this.contents }}</figcaption>
 </figure>
 {%- endif -%}

@@ -3,11 +3,11 @@ title: Neue Workshops im September
 body:
 
 #### block-image ####
-image: dsc04470.jpg
+image: img.jpg
 ----
 width: 0
 ----
-height: 400
+height: 0
 ----
 contents: Notizbuch mit herausnehmbaren Inlays
 #### block-text ####
@@ -29,17 +29,17 @@ Wenn du selbst Lust hast, deine Fähigkeiten weiterzugeben, dich mal im Workshop
 #### block-image ####
 image: lettering.jpg
 ----
-width: 0
+width: 500
 ----
-height: 400
+height: 0
 ----
 contents: Handlettering
 #### block-image ####
-image: titelbild-cyanotypie-workshop.jpg
+image: cyanotypie.jpg
 ----
-width: 0
+width: 500
 ----
-height: 400
+height: 0
 ----
 contents: Cyanotypie
 ---

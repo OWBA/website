@@ -7,42 +7,42 @@ index: 30
 body:
 
 #### block-image ####
-image: img-1572.JPG
+image: eingang.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Eingangsbereich
 #### block-image ####
-image: img-1575.JPG
+image: sauber.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Papier-Stoff-Bereich
 #### block-image ####
-image: img-5486.JPG
+image: holz-1.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Holzbereich 1
 #### block-image ####
-image: img-5509.JPG
+image: holz-2.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Holzbereich 2
 #### block-image ####
-image: img-5492.JPG
+image: metall.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Metallbereich

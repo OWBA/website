@@ -19,7 +19,7 @@ Für das **Balance-Board** brauchst du:
 * Holzleim  
 
 Und so geht’s:  
-1. Überlege dir, wie du das Board gestalten möchtest. Hier findest du ein Muster in A4 zum Ausdrucken, das du als Vorlage nutzten kannst ([PDF](./owba-balance-board.pdf)).  
+1. Überlege dir, wie du das Board gestalten möchtest. Hier findest du ein Muster in A4 zum Ausdrucken, das du als Vorlage nutzten kannst ([PDF](./schablone.pdf)).
 2. Schleife die Kanten erst mit dem groben Schleifpapier ab und anschließend nochmal die komplette Fläche + Kanten mit der feineren Körnung.  
 3. Übertrage deine Vorlage auf das Board. Für filigrane Zeichnungen eignet sich Blaupapier zum Pauschen sehr gut. Linien und Flächen lassen sich mit Kreppband abkleben.  
 4. Für die Gestaltung kannst du jeglichen Bundlack und Acrylfarbe verwenden. Als Stifte empfehlen wir Permanent-Lackstifte.  
@@ -27,15 +27,15 @@ Und so geht’s:
 
 P.S.: Wir würden uns super darüber freuen, dein fertiges Board zu sehen. Markiere uns einfach bei Instagram @offenewerkstattbamberg oder verwende den Hashtag #owba.
 #### block-image ####
-image: img-2425.jpeg
+image: img-1.jpg
 ----
 width: 0
 ----
-height: 800
+height: 600
 ----
 contents: Plane, wie du dein Board gestalten möchtest.
 #### block-image ####
-image: balance-board-inspo.jpg
+image: art.jpg
 ----
 width: 0
 ----
@@ -43,38 +43,38 @@ height: 0
 ----
 contents: Hier ein paar Beispiele.
 #### block-image ####
-image: img-2426.jpeg
+image: img-2.jpg
 ----
 width: 0
 ----
-height: 800
+height: 600
 ----
 contents: Schleife über die Kanten.
 #### block-image ####
-image: img-2453.jpeg
+image: img-3.jpg
 ----
 width: 0
 ----
-height: 800
+height: 600
 ----
 contents: Übertrage deine Vorlage auf das Board.
 #### block-image ####
-image: img-2520.jpeg
+image: img-4.jpg
 ----
 width: 0
 ----
-height: 800
+height: 600
 ----
 contents: 
 #### block-image ####
-image: img-2521.jpeg
+image: img-5.jpg
 ----
 width: 0
 ----
-height: 800
+height: 600
 ----
 contents: Verbinde die Korkmatte mit der Holzrolle.
 ---
-cover: img-2458.jpeg
+cover: img.jpg
 ---
 pub_date: 2021-03-12

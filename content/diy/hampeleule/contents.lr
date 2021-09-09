@@ -5,7 +5,7 @@ body:
 #### block-text ####
 content:
 
-‘Hampelmänner’ oder in diesem Fall ‘Hampel-Eulen’ sind ein beliebtes und faszinierendes Spielzeug. Noch faszinierender ist die Herstellung eines solchen Spielzeugs. In diesem Workshop lernst du die Technik hinter der hübschen Eulen-Fassade kennen. Alle nötigen Materialien dazu findest du in deinem Werkl-Kit.
+„Hampelmänner“ oder in diesem Fall „Hampel-Eulen“ sind ein beliebtes und faszinierendes Spielzeug. Noch faszinierender ist die Herstellung eines solchen Spielzeugs. In diesem Workshop lernst du die Technik hinter der hübschen Eulen-Fassade kennen. Alle nötigen Materialien dazu findest du in deinem Werkl-Kit.
 Da die Herstellung der Hampel-Eule viele Arbeitsschritte und exaktes Arbeiten benötigt, empfehlen wir den Workshop für Kinder ab 10 Jahren.
 
 Im Werkl-Kit enthalten:
@@ -17,7 +17,7 @@ Was du zu Hause haben solltest:
 - Schere
 - evtl. Farbe oder Filzstücke zum dekorieren
 #### block-image ####
-image: hampel-eule-1550.JPG
+image: img-1.jpg
 ----
 width: 0
 ----
@@ -25,7 +25,7 @@ height: 0
 ----
 contents: Alle Teile der Hampel-Eule.
 #### block-image ####
-image: hampel-eule-1552.JPG
+image: img-2.jpg
 ----
 width: 0
 ----
@@ -33,7 +33,7 @@ height: 0
 ----
 contents: Zum Anfang das Innere der Augen schwarz ausmalen
 #### block-image ####
-image: hampel-eule-1553.JPG
+image: img-3.jpg
 ----
 width: 0
 ----
@@ -41,7 +41,7 @@ height: 0
 ----
 contents: Die beiden Ringe leicht abschmirgeln. VORSICHT! Nicht zu viel Material abnehmen, sonst besteht Gefahr, dass sich die Schnur verklemmt. Siehe die folgenden Bilder.
 #### block-image ####
-image: hampel-eule-1554.JPG
+image: img-4.jpg
 ----
 width: 0
 ----
@@ -49,7 +49,7 @@ height: 0
 ----
 contents: Zum Testen den Ring und ein Kreisstück auf einen Flügel legen und...
 #### block-image ####
-image: hampel-eule-1556.JPG
+image: img-5.jpg
 ----
 width: 0
 ----
@@ -57,7 +57,7 @@ height: 0
 ----
 contents: den zweiten Flügel darauflegen und testen ob er sich leicht drehen lässt. Das Kreisstück merken und dann auch für diesen Ring verwenden!
 #### block-image ####
-image: hampel-eule-1557.JPG
+image: img-6.jpg
 ----
 width: 0
 ----
@@ -67,7 +67,7 @@ contents:
 
 Für die Kreise ganz wenig Klebstoff verwenden, sonst klemmt nacher der Ring wenn der Klebstoff seitlich austritt. 
 #### block-image ####
-image: hampel-eule-1558.JPG
+image: img-7.jpg
 ----
 width: 0
 ----
@@ -75,7 +75,7 @@ height: 0
 ----
 contents: Die Rechtecke aufkleben und dann ein bisschen warten bis der Kleber angezogen hat.
 #### block-image ####
-image: hampel-eule-1559.JPG
+image: img-8.jpg
 ----
 width: 0
 ----
@@ -83,7 +83,7 @@ height: 0
 ----
 contents: An den Enden der Schnur Schlaufen knoten und in die Flügel einfädeln.
 #### block-image ####
-image: hampel-eule-1561.JPG
+image: img-9.jpg
 ----
 width: 0
 ----
@@ -94,7 +94,7 @@ contents:
 Schnur, Flügel und Kreise auflegen und aufpassen, dass die Schnur sauber verlegt ist und nicht hochsteht.
 Klebepunkte setzen und ...
 #### block-image ####
-image: hampel-eule-1562.JPG
+image: img.jpg
 ----
 width: 0
 ----
@@ -104,6 +104,6 @@ contents: die Eule aufkleben. Schön von oben schauen, dass die Augen auch gut i
 #### block-text ####
 content: Viel Spass mit der Hampel-Eule wünscht euch das Team von der Offenen Werkstatt Bamberg
 ---
-cover: hampel-eule-1562.JPG
+cover: img.jpg
 ---
 pub_date: 2021-05-28

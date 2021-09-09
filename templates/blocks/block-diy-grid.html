@@ -17,12 +17,13 @@
 
   {%- for _, _, x in arr -%}
   {%- set image = x.attachments.get(x.cover) -%}
+  {%- set desc = x.short_title or x.title -%}
   <a href="{{ x|url }}"><div>
     {%- if x.pub_date %}
     {{ dayfmt(x.pub_date, fmt='d. MMM YYYY') }}
     {%- endif %}
-  	{{- constrain_img(image, w=180, h=120, mode='crop', clickable=False, alt='Anleitung') }}
-    <p>{{ x.short_title or x.title }}</p>
+  	{{- constrain_img(image, 'Anleitung für {}'.format(desc), w=200, h=200, mode='crop') }}
+    <p>{{ desc }}</p>
   </div></a>
   {%- endfor -%}
 </div>

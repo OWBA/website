@@ -1,4 +1,4 @@
-title: Eiskristall aus Papier ❄️
+title: Eiskristall aus Papier
 ---
 body:
 
@@ -28,7 +28,7 @@ image: 2.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents:
 
@@ -38,7 +38,7 @@ image: 3.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Es entstehen 12 Falze.
 #### block-image ####
@@ -46,7 +46,7 @@ image: 4.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Falte nun die Spitze jeder Ecke einmal bis in den Mittelpunkt des Sechsecks.
 #### block-image ####
@@ -54,7 +54,7 @@ image: 5.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: 
 #### block-image ####
@@ -62,7 +62,7 @@ image: 6.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Falte das Sechseck zu einem Dreieck, indem du das Sechseck halbierst...
 #### block-image ####
@@ -70,7 +70,7 @@ image: 7.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: ... und anschließend das linke Drittel über vorn zur Mitte faltest und das rechte Drittel über hinten. Das Dreieck liegt also im Zickzackfalz vor dir.
 #### block-image ####
@@ -78,7 +78,7 @@ image: 9.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Schneide das Dreieck (oben, d.h. auf der der Spitze gegenüberliegenden Seite) in der Mitte entlang des Falzes ein. Der Schnitt endet an der Stelle, an der mehrere Falze sich treffen.
 #### block-image ####
@@ -86,7 +86,7 @@ image: 8.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Falte die Spitze des Dreiecks nach oben und öffne sie wieder. Es geht hier nur um den Falz.
 #### block-image ####
@@ -94,7 +94,7 @@ image: 10.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Halbiere das Dreieck, indem du es senkrecht zusammenfaltest.
 #### block-image ####
@@ -102,7 +102,7 @@ image: 11.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Nun wird das Dreieck eingeschnitten. Auf einem separaten Modell habe ich dir die Schnitte eingezeichnet (schwarze Linien).
 #### block-image ####
@@ -118,7 +118,7 @@ image: 13.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Wende das Sechseck und bearbeite wie eben den äußeren Teil des Sechsecks. Die geschnittenen Dreiecke werden hier nach unen/innen umgefalten.
 #### block-image ####
@@ -126,12 +126,10 @@ image: 14.jpg
 ----
 width: 0
 ----
-height: 800
+height: 0
 ----
 contents: Falte die Flügel am Rand des Sechsecks nach Belieben.
 ---
 cover: 0.jpg
 ---
 pub_date: 2020-12-20
----
-short_title: Eiskristall aus Papier

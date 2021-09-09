@@ -1,6 +1,6 @@
-title: Wikinger-Schach ♜
+title: Wikinger-Schach
 ---
-cover: wikinger-schach-surprisebag.jpeg
+cover: img.jpg
 ---
 body:
 
@@ -23,16 +23,14 @@ Werkzeug:
 
 Und so geht’s:  
 1. Schneide dir das Material auf das entsprechende Material zu oder hole es... *schwupsdiwups*... aus deinem Bastel-Beutel.
-2. Der König bekommt noch eine Krone verpasst: Dafür zeichnest du eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden
-	Seite. Das machst du auf allen vier Seiten mit beiden Ecken.
+2. Der König bekommt noch eine Krone verpasst: Dafür zeichnest du eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden Seite. Das machst du auf allen vier Seiten mit beiden Ecken.
 3. Anschließend sägst du die Krone mit einer Handsäge aus.
 4. Um die Krone noch deutlicher abzusetzen wird rundherum eine Fuge eingesägt: Hierfür zeichnest du ein Dreieck an der Seitenkante an, ebenfalls im 45º Winkel, mit 6m Abstand zur Spitze der Krone. Die Füge wird 1,5 cm breit.
 5. Alle Kanten der zugeschnittenen Hölzer gründlich abschleifen und anschließend nach Lust und Laune bemalen. Mögen die Besten gewinnen!
 
-Jetzt fehlt nur noch ein super schniecker Beutel zur Aufbewahrung. Die Nähanleitung hierzu findest du in unserem DIY Bereich unter [Surprise
-Bag](/diy/surprise-bag/).
+Jetzt fehlt nur noch ein super schniecker Beutel zur Aufbewahrung. Die Nähanleitung hierzu findest du in unserem DIY Bereich unter [Surprise-Bag](/diy/surprise-bag/).
 #### block-image ####
-image: wikinger-schach.jpeg
+image: img-1.jpg
 ----
 width: 0
 ----
@@ -40,7 +38,7 @@ height: 0
 ----
 contents: Jede Menge Holz für jede Menge Spaß.
 #### block-image ####
-image: wikinger-schach-1a.jpeg
+image: img-2.jpg
 ----
 width: 0
 ----
@@ -50,7 +48,7 @@ contents:
 
 Zeichne eine Linie im 45º Winkel von der oberen Ecke diagonal zur gegenüberliegenden Seite. 
 #### block-image ####
-image: wikinger-schach-1b.jpeg
+image: img-3.jpg
 ----
 width: 0
 ----
@@ -58,7 +56,7 @@ height: 0
 ----
 contents: Das machst du auf allen vier Seiten mit beiden Ecken.
 #### block-image ####
-image: wikinger-schach-3.jpeg
+image: img-4.jpg
 ----
 width: 0
 ----
@@ -66,7 +64,7 @@ height: 0
 ----
 contents: Säge die Krone mit einer Handsäge aus.
 #### block-image ####
-image: wikinger-schach-4a.jpeg
+image: img-5.jpg
 ----
 width: 0
 ----
@@ -74,7 +72,7 @@ height: 0
 ----
 contents: Zeichne für die Fuge ein Dreieck an der Seitenkante an, ebenfalls im 45º Winkel, mit 6 cm Abstand zur Spitze der Krone. Die Füge wird 1,5 cm breit.
 #### block-image ####
-image: wikinger-schach-4b.jpeg
+image: img-6.jpg
 ----
 width: 0
 ----
@@ -83,5 +81,3 @@ height: 0
 contents: Säge die Fuge.
 ---
 pub_date: 2020-12-20
----
-short_title: Wikinger-Schach

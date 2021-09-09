@@ -24,7 +24,7 @@ Und so geht’s:
 
 P.S.: Wir würden uns super darüber freuen, deine fertige Wandtasche zu sehen. Markiere uns einfach bei Instagram @offenewerkstattbamberg oder verwende den Hashtag #owba.
 #### block-image ####
-image: 1.JPG
+image: img-1.jpg
 ----
 width: 0
 ----
@@ -32,7 +32,7 @@ height: 0
 ----
 contents: Verpasse deinem Stoffnutzen einen ordentlichen Schnitt, indem du dir auf der Stoffrückseite Markierungen anzeichnest.
 #### block-image ####
-image: 2.JPG
+image: img-2.jpg
 ----
 width: 0
 ----
@@ -40,7 +40,7 @@ height: 0
 ----
 contents: Schlage den Stoff um und näh mit dem Steppstich die Schlaufe für dein Rundholz.
 #### block-image ####
-image: 3.JPG
+image: img-3.jpg
 ----
 width: 0
 ----
@@ -50,7 +50,7 @@ contents:
 
 Verziere die Stoffkante mit einem Langettenstich. 
 #### block-image ####
-image: 4.JPG
+image: img-4.jpg
 ----
 width: 0
 ----
@@ -60,4 +60,4 @@ contents: Bilde die Tasche, indem du den Stoff umschlägst und ihn mit dem Kreuz
 ---
 pub_date: 2021-05-01
 ---
-cover: 0.JPG
+cover: img.jpg
