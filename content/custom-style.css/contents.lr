@@ -5,3 +5,7 @@ _discoverable: no
 content:
 
 footer { max-width: 550px; }
+
+blockquote {
+background: #f39;
+}
