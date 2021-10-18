@@ -2,29 +2,18 @@ _model: diy-overview
 ---
 _template: page.html
 ---
-title: Workshops
+title: DIY
 ---
 body:
 
 #### block-text ####
 content:
 
-## Workshops
+##Do It Yourself
+Hier findest du **Ideen und Anleitungen zum Selbermachen**...auch für daheim.
 
-### Kommende Veranstaltungen:
-* 23.09.21: [Notizbücher mit herausnehmbaren Inlays](https://pretix.eu/OWBA/notizbuecher/) mit Judit
-* 25./ 26.09.21: [Cyanotypie](https://pretix.eu/OWBA/cyanotypie/) mit Louise
-* 16.10.21: [Handlettering](https://pretix.eu/OWBA/handlettering/) mit Nadine
-
-Alle Infos und die Möglichkeit zum **Anmelden** findest du auf [Pretix](https://pretix.eu/OWBA/). Unser [Newsletter](/info/newsletter/) hält dich mit dem aktuellen Workshop-Programm auf dem Laufenden.
-
-
-Du hast Lust, auch mal einen **Workshop anzubieten** oder suchst Leute, die mit dir gemeinsam etwas ausprobieren? Dann schreibe uns an [workshop@owba.de](mailto:workshop@owba.de).  
-
-Und hier geht’s zu den Anleitungen vergangener Workshops:
+Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #OWBA
 #### block-diy-grid ####
 sort_by: by-date-desc
-#### block-text ####
-content: Wir freuen uns immer über Feedback! Schreib uns einfach an [info@owba.de](mailto:info@owba.de) oder poste ein Foto mit deinem Bastelergebnis auf instagram #OffeneWerkstattBamberg oder #OWBA
 ---
 index: 10

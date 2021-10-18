@@ -54,6 +54,14 @@ image: logo-unverpackt.svg
 link: https://unverpackt-bamberg.de/
 -----
 description: 
+##### nav-img-grid #####
+title: Mehrgenerationenhaus Känguruh e.V.
+-----
+image: logo-kaenguruh.svg
+-----
+link: https://bamberg.mehrgenerationenhaus.de/
+-----
+description: 
 #### block-text ####
 content: ## ... für Sponsoring und Unterstützung
 #### block-img-grid ####

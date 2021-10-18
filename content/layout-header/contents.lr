@@ -19,7 +19,7 @@ meta:
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/custom-style.css">
 ---
-nav_items: /news, /werkstatt, /diy, /unterstuetzen, /info
+nav_items: /news, /werkstatt, /diy, /unterstuetzen, /info, /programm
 ---
 nav_items_additional:
 
@@ -31,3 +31,7 @@ link: feed://owba.de/feed.xml
 title: <svg viewBox="0 0 100 100" width="16" height="16"><title>Instagram</title><path d="M66.5,50.1c-1.2-23-32.9-21.2-33.3,0C34.3,73,66.1,71.3,66.5,50.1z M75.5,50.1c-1.6,35.1-50.6,33.1-51.3,0C25.8,15,74.8,17,75.5,50.1z M82.5,23.4c-0.4,8.2-11.8,7.6-12,0C70.9,15.2,82.3,15.7,82.5,23.4z M49.8,9.1c-39-1-41.7,3-41,40.4c-0.3,31-1.3,42.5,31.4,41.7c44-0.1,52,3.7,50.6-40C91.8,11.1,88.5,8.3,49.8,9.1z M99.8,50.1c1.5,43.2-7.6,51-47.3,50C11.3,101.5-0.6,95.3-0.1,60C-1.4,10.6,1.4-1.2,47.1,0.1C93.9-1.5,101,6.7,99.8,50.1z"/></svg>
 ----
 link: https://www.instagram.com/OffeneWerkstattBamberg/
+#### nav-external ####
+title: <svg viewBox="0 0 100 100" width="16" height="16"><title>facebook</title><path d="M81.2,0c9.7-0.3,19,8.5,18.8,18.8v62.5c0.3,9.7-8.5,19-18.8,18.8H69V61.3h13l2-15.1H69v-9.6c0.1-4.8,1.7-7.3,7.5-7.3l7.9-0.1V15.7c-16.6-2.5-31,0.9-31.1,19.3v11.1h-13v15.1h13V100H18.8C10.7,100,0,90.6,0,81.2V18.8C-0.3,9,8.5-0.3,18.8,0H81.2z"/></svg>
+----
+link: https://facebook.com/offeneWerkstattBamberg/
