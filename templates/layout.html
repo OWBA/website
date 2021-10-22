@@ -39,7 +39,7 @@
       {%- endif %}
     {%- endfor %}
     {%- for x in head.nav_items_additional.blocks %}
-      <a href="{{ x.link }}">{{ x.title }}</a>
+      <a href="{{ x.link }}" title="{{ x.title }}" class="halfrm">{{ x.icon }}</a>
     {%- endfor %}
     </nav>
   </header>

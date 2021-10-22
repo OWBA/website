@@ -26,8 +26,9 @@ del { color: #999; }
 /* general */
 .font { font-size: 1.1em; font-weight: normal; }
 h2,h3,h4,h5,h6 { margin-top: 1.5em; font-weight: normal; }
-header h1 { line-height: 1.2; font-size: 2.3em; }
-header nav > * { margin: 0 1em 1ex 0; display: inline-block; }
+header>h1 { line-height: 1.2; font-size: 2.3em; }
+header>nav>* { margin: 0 1em 1ex 0; display: inline-block; }
+header>nav>.halfrm { margin-right: .3em; }
 footer { font-size: 0.9em; margin: 80px auto 0; }
 address { font-style: normal; }
 main ::marker { font-size: 1.25em; color: #F39; }
@@ -43,9 +44,8 @@ ul li:before {
 
 a { color: #F39; text-decoration: none; }
 a:hover { color: #CC287A; }
-svg { fill: #F39; }
+svg { fill: #F39; width: 1em; height: 1em; }
 a:hover svg { fill: #CC287A; }
-nav svg { width: 1em; height: 1em; }
 .underline { text-decoration: underline; }
 .pagination { margin-top: 50px; }
 .center,header,footer,.pagination { text-align: center; }
