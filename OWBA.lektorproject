@@ -3,23 +3,31 @@ name = Offene Werkstatt Bamberg
 url = https://owba.de/
 locale = de_DE
 
-[servers.publish-production]
-name = Publish: Production
-default = yes
-target = path:///srv/http/de-owba
+[servers.dryrun]
+name = Geänderte Dateien
+dryrun = yes
+target = lrsync://status
+destination = /srv/http/de-owba
 
 [servers.git-commit]
-name = Git: Commit
-target = cmd://git/add * && git commit -m 'Automerge changes'; git push
+name = git: Commit
+default = no
+target = git://push
 
 [servers.git-pull]
-name = Git: Pull
-target = cmd://git/pull
+name = git: Pull
+target = git://pull
 
 [servers.git-status]
-name = Git: Status
-target = cmd://git/status
+name = git: Status
+target = git://status
 
 [servers.git-diff]
-name = Git: Diff
-target = cmd://git/diff
+name = git: Diff
+target = git://diff
+
+[servers.production]
+name = Veröffentlichen
+default = yes
+target = lrsync://publish
+destination = /srv/http/de-owba

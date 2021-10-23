@@ -3,6 +3,13 @@
 help:
 	@echo 'available commands: verify, ls-links, ls-img-size'
 
+plugins:
+	@echo 'Rebuilding plugins...'
+	find packages -name '__pycache__' -or -name '*.egg-info' -delete
+	lektor plugins flush-cache
+	@echo 'Plugin list:'
+	lektor plugins list
+
 verify:
 	@echo 'checking broken links...'
 	@sh tools/check-broken-links.sh
