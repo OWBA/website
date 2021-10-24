@@ -174,4 +174,5 @@ figure img { max-width: 100%; min-height: 100px; }
 
 @media screen and (max-width:  500px) {
   body { padding: .5em .5em 2em; }
+  figure { margin: 15px 5px; }
 }
