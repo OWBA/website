@@ -71,8 +71,9 @@ input[type=checkbox] { width: 1.2em; height: 1.2em; }
   vertical-align: middle;
 }
 button:not(.no-style) {
+  font-family: Piazzolla, Helvetica Neue, sans-serif;
   cursor: pointer;
-  font-size: .8em;
+  font-size: .9em;
   padding: .5em .8em;
   font-weight: bold;
   border: none;
@@ -83,7 +84,7 @@ button:not(.no-style) {
 button:not(.no-style):hover { background: #CC287A; }
 
 /* top menu */
-nav .submenu { position: relative; }
+nav .submenu { position: relative; z-index: 9;}
 nav .submenu > button { color: #F39; }
 nav .submenu:before { content: '▿'; color: #F39; }
 nav .submenu .linkbox { display: none; }

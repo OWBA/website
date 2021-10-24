@@ -1,0 +1,67 @@
+_model: page
+---
+title: Kalender
+---
+body:
+
+#### block-text ####
+content:
+
+## Kalender
+
+<link href='/static/ical/main.min.css' rel='stylesheet' />
+<link href='/static/ical/custom.css' rel='stylesheet' />
+<script src='/static/ical/main.min.js'></script>
+<script src='/static/ical/de.js'></script>
+<script src='/static/ical/custom.js'></script>
+<script>
+let now = new Date();
+init_calendar('ical-div', {
+  locale: 'de',
+  validRange: {
+    start: new Date(now.getFullYear(), now.getMonth() - 1, 1, 12),  // start of last month
+    end: new Date(now.getFullYear(), now.getMonth() + 4, 0, 12),  // end of +3 months
+  },
+  // header
+  headerToolbar: {
+    left: 'prev,next today',
+    center: 'title',
+    right: 'dayGridMonth,timeGridWeek,listYear'
+  },
+  // initialView: 'dayGridMonth',
+  defaultRangeSeparator: ' \u2013 ',
+  // weekNumbers: true,
+  // aspectRatio: 1.6,
+  nowIndicator: true,
+  scrollTime: '10:00',
+  slotMinTime: '08:00',
+  slotDuration: '00:30',
+  slotLabelInterval: '02:00',
+  nextDayThreshold: '06:00',
+  // displayEventTime: false,
+  // displayEventEnd: true,
+  eventTimeFormat: {hour: 'numeric', minute: '2-digit'},  // '8:00'
+  // "show more" events
+  dayMaxEvents: true,
+  // moreLinkClick: 'week',  // popover, week, listYear
+  // businessHours: [
+  //   {daysOfWeek: [3, 4], startTime: '17:00', endTime: '21:00'},
+  //   {daysOfWeek: [6], startTime: '10:00', endTime: '16:00'}
+  // ],
+  eventColor: '#F39',
+  eventSources: [
+    calendar_load_json('/calendar.json', {
+      // color: '#F39',
+      // backgroundColor: '#CC287A',
+      // borderColor: '#F39',
+      // display: 'block',  // all-day
+      // display: 'list-item',  // dot-event
+    }),
+  ],
+});
+</script>
+<div id="ical-div"></div>
+
+Du kannst den Kalender auch direkt in deinem Kalender-Programm abonnieren, so bleibst du immer auf dem Laufenden: [webcal://owba.de/calendar.ics](webcal://owba.de/calendar.ics)
+---
+index: 2
