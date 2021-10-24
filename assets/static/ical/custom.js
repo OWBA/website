@@ -71,18 +71,19 @@ function plain_anchor(link) {
 let re_http_email = /https?:\/\/[^\s]+[^\s.,;]|[^\s]+@owba\.de/g;
 function detect_url_and_email(text) {
   if (!text) { return text; }
+  text = text.replace(/\n/g, '<br>');
   var idx = 0;
   var tmp = document.createElement('SPAN');
   var match;
   while (match = re_http_email.exec(text)) {
-    tmp.appendChild(document.createTextNode(text.substring(idx, match.index)));
+    tmp.innerHTML += text.substring(idx, match.index);
     let a = tmp.appendChild(plain_anchor(match[0]));
     if (match[0].slice(-8) === '@owba.de') {
       a.href = 'mailto:' + a.href;
     }
     idx = match.index + match[0].length;
   }
-  tmp.appendChild(document.createTextNode(text.substring(idx)));
+  tmp.innerHTML += text.substring(idx);
   return tmp;
 }
 function make_itemized_body(entries) {
