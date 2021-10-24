@@ -30,6 +30,12 @@ link: feed://owba.de/feed.xml
 ----
 icon: <svg><use href="/static/icons.svg#rss"/></svg>
 #### nav-external ####
+title: Kalender abonnieren
+----
+link: webcal://owba.de/calendar.ics
+----
+icon: <svg><use href="/static/icons.svg#cal"/></svg>
+#### nav-external ####
 title: Instagram
 ----
 link: https://www.instagram.com/OffeneWerkstattBamberg/
