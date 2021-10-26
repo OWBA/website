@@ -16,17 +16,19 @@ content:
 <script src='/static/ical/custom.js'></script>
 <script>
 let now = new Date();
+let calStart = new Date(now.getFullYear(), now.getMonth() - 1, 1, 12);  // start of last month
+let calEnd = new Date(now.getFullYear(), now.getMonth() + 4, 0, 12);  // end of +3 months
 init_calendar('ical-div', {
   locale: 'de',
-  validRange: {
-    start: new Date(now.getFullYear(), now.getMonth() - 1, 1, 12),  // start of last month
-    end: new Date(now.getFullYear(), now.getMonth() + 4, 0, 12),  // end of +3 months
-  },
+  validRange: { start: calStart, end: calEnd },
   // header
   headerToolbar: {
     left: 'prev,next today',
     center: 'title',
-    right: 'dayGridMonth,timeGridWeek,listYear'
+    right: 'dayGridMonth,timeGridWeek,listAll'
+  },
+  views: {
+    listAll: { type: 'list', visibleRange: { start: now, end: calEnd }, titleFormat: { year: 'numeric' } }
   },
   // initialView: 'dayGridMonth',
   defaultRangeSeparator: ' \u2013 ',
@@ -40,13 +42,13 @@ init_calendar('ical-div', {
   nextDayThreshold: '06:00',
   // displayEventTime: false,
   // displayEventEnd: true,
-  eventTimeFormat: {hour: 'numeric', minute: '2-digit'},  // '8:00'
+  eventTimeFormat: { hour: 'numeric', minute: '2-digit' },  // '8:00'
   // "show more" events
   dayMaxEvents: true,
   // moreLinkClick: 'week',  // popover, week, listYear
   // businessHours: [
-  //   {daysOfWeek: [3, 4], startTime: '17:00', endTime: '21:00'},
-  //   {daysOfWeek: [6], startTime: '10:00', endTime: '16:00'}
+  //   { daysOfWeek: [3, 4], startTime: '17:00', endTime: '21:00' },
+  //   { daysOfWeek: [6], startTime: '10:00', endTime: '16:00' }
   // ],
   eventColor: '#F39',
   eventSources: [

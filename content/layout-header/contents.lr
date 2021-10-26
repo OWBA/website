@@ -30,9 +30,9 @@ link: feed://owba.de/feed.xml
 ----
 icon: <svg><use href="/static/icons.svg#rss"/></svg>
 #### nav-external ####
-title: Kalender abonnieren
+title: Kalender
 ----
-link: webcal://owba.de/calendar.ics
+link: https://owba.de/programm/kalender
 ----
 icon: <svg><use href="/static/icons.svg#cal"/></svg>
 #### nav-external ####
