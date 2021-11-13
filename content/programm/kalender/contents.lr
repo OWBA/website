@@ -30,7 +30,7 @@ init_calendar('ical-div', {
   views: {
     listAll: { type: 'list', visibleRange: { start: now, end: calEnd }, titleFormat: { year: 'numeric' } }
   },
-  // initialView: 'dayGridMonth',
+  // initialView: 'listAll',
   defaultRangeSeparator: ' \u2013 ',
   // weekNumbers: true,
   // aspectRatio: 1.6,
@@ -43,6 +43,7 @@ init_calendar('ical-div', {
   // displayEventTime: false,
   // displayEventEnd: true,
   eventTimeFormat: { hour: 'numeric', minute: '2-digit' },  // '8:00'
+  listDaySideFormat: { weekday: 'long' },
   // "show more" events
   dayMaxEvents: true,
   // moreLinkClick: 'week',  // popover, week, listYear
