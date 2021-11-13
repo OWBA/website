@@ -1,0 +1,38 @@
+title: Auf die Plätze...
+---
+body:
+
+#### block-image ####
+image: werkzeug.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: 
+#### block-text ####
+content:
+
+**...ran ans Werkzeug.**
+
+Freu dich auf viele neue Angebote im November und Dezember! Wir unterscheiden *Offene Treffen* von *Kursen*. Offene Treffen finden zu den gewohnten Öffnungszeiten der OWBA und den normalen Nutzungsbedingungen statt. Du kannst einfach ohne Anmeldung vorbeikommen, schnuppern, mitmachen, wiederkommen (oder nicht). Eine ideale Gelegenheit die Werkstatt und nette Menschen kennenzulernen. Zu den Kursen musst du dich anmelden. Sie können auch außerhalb der Öffnungszeiten stattfinden. In den Kursen lernst du zu bestimmten Themen Neues kennen. Die Inhalte und Materialien dafür werden aufwendig von unserem OWBA-Team vorbereitet. Deshalb kosten die Kurse auch mehr als die üblichen Nutzungsgebühren. Anmelden kannst du dich dafür über [Pretix](https://pretix.eu/OWBA/).
+
+**Offene Treffen**  
+* Offenes Werkstatt-Schnuppern für Jugendliche jeden Samstag (Kostenfrei für Jugendliche und ihre Erziehungsberechtigten!)
+* Offene Nähwerkstatt jeden zweiten Mittwoch ab 18 Uhr 
+* Buchreparatur-Sprechstunde immer am zweiten Samstag im Monat, 10–14 Uhr
+
+**Kurse**
+* Oldtimer-Fahrrad-Reparatur am 6. und 7.11.2021, jeweils 11–15 Uhr
+* Grundkurs Holzmaschinen: Brotzeitbrettchen, samstags 10–12 Uhr
+* Holzverbindung: die offene Zinkung am 27.11.21 von 13:15 bis 17:15 Uhr
+#### block-image ####
+image: bike.jpg
+----
+width: 300
+----
+height: 0
+----
+contents: Oldtimer-Fahrrad-Reapratur am 6. und 7.11.
+---
+pub_date: 2021-11-02
