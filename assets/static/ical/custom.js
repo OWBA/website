@@ -135,10 +135,13 @@ function show_modal(title, body, color='#CC287A') {
   // outer click area
   let modal = document.body.appendChild(document.createElement('DIV'));
   modal.className = 'app-modal';
-  function close_modal() { modal.remove(); window.onmousedown = null; }
-  window.onmousedown = function(event) {
-    if (event.target == modal) { close_modal(); }
+  function close_modal() {
+    modal.remove();
+    window.onmousedown = null;
+    window.onkeydown = null;
   }
+  window.onmousedown = function(e) { if (e.target == modal) close_modal(); };
+  window.onkeydown = function(e) { if (e.key == "Escape") close_modal(); };
   // inner box
   let box = modal.appendChild(document.createElement('DIV'));
   box.className = 'modal-box';
