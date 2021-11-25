@@ -5,15 +5,34 @@ body:
 #### block-text ####
 content:
 
-**Einmal spenden - doppelt Gutes tun!** Wie hört sich das an?
+**Einmal spenden – doppelt Gutes tun!** Wie hört sich das an?
 
 Wir sind bei der Sozialen Wette 2.0 dabei: 
 
-Die Adalbert Raps Stiftung "wettet" mit uns, dass wir es NICHT schaffen, in den nächsten 5 Wochen mind. 300 € Spenden zu sammeln. Ab dem Mindestwert von 300 € verdoppelt die Stiftung unsere gesammelten Spenden (bis max. 1000 €). Das heißt: Wenn wir also insgesamt z.B. 1200 € Spenden sammeln, bekommen wir noch zusätzlich 1000 € von der Stiftung. Sammeln wir 800 €, bekommen wir weitere 800 € von der Stiftung. Nicht schlecht, oder?!
+Die Adalbert Raps Stiftung „wettet“ mit uns, dass wir es NICHT schaffen, in den nächsten 5 Wochen mind. 300 € Spenden zu sammeln. Ab dem Mindestwert von 300 € verdoppelt die Stiftung unsere gesammelten Spenden (bis max. 1000 €). Das heißt: Wenn wir also insgesamt z.B. 1200 € Spenden sammeln, bekommen wir noch zusätzlich 1000 € von der Stiftung. Sammeln wir 800 €, bekommen wir weitere 800 € von der Stiftung. Nicht schlecht, oder?!
 
 Wir sagen: Das schaffen wir... bis zum 10. Dezember haben wir Zeit!  
 Auf geht's und ran an die Börse. Jeder Groschen hilft. Hier kannst du [spenden](/unterstuetzen/spende/). Es gibt auch eine Spendenbox in der Werkstatt. 
 
 Die Spende geht zu 100% in die OWBA für neue Anschaffungen, Workshop-Equipment etc.
+
+### Spenden per PayPal:
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="NHQ7HKJBTDJVL" />
+<input type="image" src="/unterstuetzen/spende/paypal.gif" border="0" name="submit" title="PayPal donation" alt="Donate with PayPal button" />
+</form>
+
+<img alt="PayPal QR Code" width="136" src="/unterstuetzen/spende/paypal-qr.png">
+
+### Oder ganz klassisch, per Überweisung:
+
+	Offene Werkstatt Bamberg e.V.
+	DE13 7705 0000 0303 3517 20
+	BYLADEM1SKB
+
+### Anleitung PaperBall
+
+Und hier geht es zur [Anleitung](/diy/paper-ball/) wie du einen PaperBall faltest.
 ---
 pub_date: 2021-11-13

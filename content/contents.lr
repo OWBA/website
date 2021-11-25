@@ -28,6 +28,11 @@ Die Offene Werkstatt Bamberg ist …
 
 Um auch Menschen ohne Vorerfahrung den Zugang zu Handwerk zu ermöglichen, stehen dir zu den Öffnungszeiten Thekenkräfte mit Rat und Tat zur Seite. Da wir die Nutzungsgebühren der OWBA so gering wie möglich halten wollen, werden die Thekenkräfte zwar immer ihr Bestes geben, aber nicht immer Fachkraft in jedem Bereichen sein können. Und auch mit aller Unterstützung bleibt das Motto: **Alles muss man selber machen!**
 #### block-selected-post ####
-post: #
+post: /news/top-die-wette-gilt
 ----
 no_link: 
+#### block-text ####
+content:
+
+## Aktuelles aus der Werkstatt?
+[Alle News anzeigen ...](/news/)
