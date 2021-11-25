@@ -1,0 +1,7 @@
+{%- extends "base-page.html" -%}
+{%- block head -%}
+  <meta http-equiv="Refresh" content="0; url='{{ this.href }}'" />
+{%- endblock -%}
+{%- block body -%}
+  <p>Einen Moment, du wirst weitergeleitet auf <a href="{{ this.href }}">{{ this.title }}</a>.</p>
+{%- endblock -%}
