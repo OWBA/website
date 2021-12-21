@@ -83,6 +83,14 @@ image: logo-radladen.svg
 link: https://www.radladen-bamberg.de/
 -----
 description: 
+##### nav-img-grid #####
+title: VR Bank Bamberg
+-----
+image: logo-vr.svg
+-----
+link: https://www.vrbank-bamberg-forchheim.de
+-----
+description: 
 #### block-text ####
 content: ## ... für Förderung
 #### block-img-grid ####

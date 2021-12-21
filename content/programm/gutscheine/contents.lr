@@ -1,0 +1,18 @@
+_model: page
+---
+title: Gutscheine
+---
+body:
+
+#### block-text ####
+content:
+
+## Geschenke & Gutscheine
+### Wertgutscheine, Mitgliedschaften & Geschenkspenden
+
+OWBA-Zeit zum Verschenken oder zum Sich-Wünschen: [Hier geht's zur Auswahl!](https://pretix.eu/OWBA/Gutscheine/)
+* **Gutscheine für Workshops:** Die Workshop-Gutscheine können auf alle aktuellen und zukünftigen Workshops über das Buchungssystem eingelöst werden. Nach der Bestellung erhälst du einen Gutschein mit Gutscheincode.
+* **Gutscheine für Mitgliedschaft und Werkstattnutzung:** Schenke jemandem Zeit für die Werkstatt! Die Zeit wird auf dem jeweiligen Werkstattkonto gut geschrieben.
+* **Gutscheine für Geschenkspenden:** Ob zu Weihnachten, zum Geburtstag, zur Hochzeit oder einfach als kleines Dankeschön – mit einer Geschenkspende schenkst du doppelt Freude. Nach der Bestellung senden wir dir eine Geschenkurkunde zu.
+---
+index: 40
