@@ -84,11 +84,12 @@ button:not(.no-style) {
 button:not(.no-style):hover { background: #CC287A; }
 
 /* top menu */
-nav .submenu { position: relative; z-index: 9;}
+nav .submenu { position: relative; }
 nav .submenu > button { color: #F39; }
 nav .submenu:before { content: '▿'; color: #F39; }
 nav .submenu .linkbox { display: none; }
 nav .submenu:hover .linkbox {
+  z-index: 9;
   display: block;
   position: absolute;
   top: 2.5ex; left: -7px;
