@@ -26,7 +26,7 @@ nav_items_additional:
 #### nav-external ####
 title: RSS Feed abonnieren
 ----
-link: feed://owba.de/feed.xml
+link: https://owba.de/feed.xml
 ----
 icon: <svg><use href="/static/icons.svg#rss"/></svg>
 #### nav-external ####
