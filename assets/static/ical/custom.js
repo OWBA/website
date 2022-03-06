@@ -79,7 +79,7 @@ function detect_url_and_email(text) {
     tmp.innerHTML += text.substring(idx, match.index);
     let a = tmp.appendChild(plain_anchor(match[0]));
     if (match[0].slice(-8) === '@owba.de') {
-      a.href = 'mailto:' + a.href;
+      a.href = 'mailto:' + match[0];
     }
     idx = match.index + match[0].length;
   }
