@@ -6,6 +6,4 @@ content:
 
 footer { max-width: 550px; }
 
-blockquote {
-background: #f39;
-}
+//blockquote {background: #f39;}
