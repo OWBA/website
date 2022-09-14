@@ -7,6 +7,13 @@ body:
 #### block-text ####
 content:
 
+## Warum wir dich brauchen
+
+Ohne deine Unterstützung geht nichts. Wir selbst sind alle ehrenamtlich aktiv und stecken unsere private Zeit und Energie in die Werkstatt weil wir die Idee toll finden. Oder weil wir uns vorher genauso einen Ort gewünscht haben. Da sowas alleine nicht immer einfach ist, gestalten wir stattdessen lieber gemeinsam diesen Ort inmitten unserer Gesellschaft.
+
+Gemeinsam stecken wir jede Woche ungefähr 57 Std. Zeit in die Werkstatt. Zeit, für die wir nicht bezahlt werden aber trotzdem gerne machen. Mit Mindestlohn wären das -2600€ pro Monat (zusätzlich zu unseren -1000€ Miete pro Monat und sonstigen Anschaffungen) — kurz gesagt: __ohne Ehrenamt läuft bei uns nichts__. Wir finanzieren und hauptsächlich über Mitgliedsbeiträge ([Mitglied werden](/unterstuetzen/mitglied-werden/)).
+
+
 ## Du möchtest dich einbringen?
 
 Du möchtest mitmachen und interessierst dich für ein bestimmtes Thema? Du kennst dich mit etwas besonders gut aus oder willst es gerade erst erlernen? Wir freuen uns über jegliche Unterstützung. Sei es [finanziell](/unterstuetzen/spende/), mit Know-How, durch Mithelfen beim Thekenbetrieb, oder schlicht durch deine zur Verfügung gestellte Zeit ([Mitglied werden](/unterstuetzen/mitglied-werden/)). Vielleicht hast du auch einfach nur etwas [abzugeben](/unterstuetzen/wunschliste/)?
@@ -80,5 +87,14 @@ content:
 _kümmert sich um…_
 - Ausarbeitung von Abläufen & Regeln für den Werkstattbetrieb
 - Den organisatorischen Rahmen
+##### block-window #####
+title: Thekenbetrieb
+-----
+content:
+
+_kümmert sich um…_
+- Nutzer:innen begrüßen
+- Für Fragen bereit stehen
+- Werkstatt öffnen & schließen
 ---
 index: 10
