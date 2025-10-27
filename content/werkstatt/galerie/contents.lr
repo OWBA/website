@@ -7,42 +7,58 @@ index: 30
 body:
 
 #### block-image ####
-image: eingang.jpg
+image: theke.jpg
 ----
 width: 0
 ----
 height: 0
 ----
-contents: Eingangsbereich
+contents: Theke im Eingangsbereich
 #### block-image ####
-image: sauber.jpg
+image: holzbereich-bandsage.jpg
 ----
 width: 0
 ----
 height: 0
 ----
-contents: Papier-Stoff-Bereich
+contents: Holzbereich mit Bandsäge
 #### block-image ####
-image: holz-1.jpg
+image: holzbereich-saegeblaetter.jpg
 ----
 width: 0
 ----
 height: 0
 ----
-contents: Holzbereich 1
+contents: Sägeblätter der Formatkreissäge
 #### block-image ####
-image: holz-2.jpg
+image: bankraum.jpg
 ----
 width: 0
 ----
 height: 0
 ----
-contents: Holzbereich 2
+contents: Holzbereich: Bankraum
 #### block-image ####
-image: metall.jpg
+image: stoffbereich.jpg
 ----
 width: 0
 ----
 height: 0
 ----
-contents: Metallbereich
+contents: Stoffbereich
+#### block-image ####
+image: lederkoffer.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: Arbeitskoffer für Lederhandwerk
+#### block-image ####
+image: workshop-bereich.jpg
+----
+width: 0
+----
+height: 0
+----
+contents: Raum für Workshops kann auch gemietet werden

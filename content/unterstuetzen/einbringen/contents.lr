@@ -11,7 +11,7 @@ content:
 
 Ohne deine Unterstützung geht nichts. Die Werkstatt wird komplett durch ehrenamtliches Engagement geplant, organisiert und durchgeführt. Jede:r bringt ein, was er oder sie kann. Wir stecken unsere private Zeit und Energie in die Werkstatt, weil wir die Idee toll finden und uns schon immer so einen Ort gewünscht haben. Doch alleine einen solchen Ort ins Leben zu rufen, geht nicht. Deshalb gestalten wir lieber gemeinsam diesen Ort inmitten unserer Gesellschaft.
 
-Gemeinsam stecken wir jede Woche ungefähr 57 Std. Zeit in die Werkstatt. Zeit und Arbeit, für die wir nicht bezahlt werden - die wir aber trotzdem gerne investieren. Mit Mindestlohn wären das -2600€ pro Monat (zusätzlich zu unseren -1000€ Miete pro Monat und sonstigen Anschaffungen) — kurz gesagt: __ohne Ehrenamt läuft bei uns nichts__. Wir finanzieren uns hauptsächlich über Mitgliedsbeiträge ([Mitglied werden](/unterstuetzen/mitglied-werden/)).
+Gemeinsam stecken wir jede Woche ungefähr 57 Std. Zeit in die Werkstatt. Zeit und Arbeit, für die wir nicht bezahlt werden - die wir aber trotzdem gerne investieren. Mit Mindestlohn wären das -2600€ pro Monat (zusätzlich zu unseren knapp -2000€ Miete pro Monat und sonstigen Anschaffungen) — kurz gesagt: __ohne Ehrenamt läuft bei uns nichts__. Wir finanzieren uns hauptsächlich über Mitgliedsbeiträge ([Mitglied werden](/unterstuetzen/mitglied-werden/)).
 
 
 ## Du möchtest dich einbringen?
@@ -25,6 +25,15 @@ Gerne kannst du zu einem unserer [Team-Treffen](/programm/regelmaessige-treffen/
 #### block-window-grid ####
 boxes:
 
+##### block-window #####
+title: Thekenbetrieb
+-----
+content:
+
+_kümmert sich um…_
+- Nutzer:innen begrüßen
+- Für Fragen bereit stehen
+- Werkstatt öffnen & schließen
 ##### block-window #####
 title: AK Finanzen
 -----
@@ -64,21 +73,13 @@ _kümmert sich um…_
 - Anschaffung und Aufbau von Maschinen für die Holzwerkstatt
 - Einrichtung und Wartung der Holzwerkstatt
 ##### block-window #####
-title: AK Pappe, Papier, Stoff
+title: AK Stoff, Leder, Papier
 -----
 content:
 
 _kümmert sich um…_
 - Anschaffung Werkzeug und Material für die Papier- und Stoffwerkstatt
 - Einrichtung und Wartung der Papier- und Stoffwerkstatt
-##### block-window #####
-title: AK Metall
------
-content:
-
-_kümmert sich um…_
-- Anschaffung und Aufbau von Maschinen und Werkzeug für die Metallwerkstatt
-- Einrichtung und Wartung der Metallwerkstatt
 ##### block-window #####
 title: AK Werkstattbetrieb
 -----
@@ -87,14 +88,5 @@ content:
 _kümmert sich um…_
 - Ausarbeitung von Abläufen & Regeln für den Werkstattbetrieb
 - Den organisatorischen Rahmen
-##### block-window #####
-title: Thekenbetrieb
------
-content:
-
-_kümmert sich um…_
-- Nutzer:innen begrüßen
-- Für Fragen bereit stehen
-- Werkstatt öffnen & schließen
 ---
 index: 10
